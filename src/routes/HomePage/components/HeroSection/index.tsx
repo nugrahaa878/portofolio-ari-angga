@@ -12,18 +12,18 @@ const HeroSection = () => {
         <div className="text-2xl mb-3">
           <Typewriter
             options={{
-              strings: ["Hello, I'm", "Halo, perkenalkan saya"],
+              strings: ["Hello, We Are", "Halo, perkenalkan kami"],
               autoStart: true,
               loop: true,
             }}
           />
         </div>
-        <h2 className="text-5xl font-semibold mb-4">Ari Angga Nugraha</h2>
+        <h2 className="text-5xl font-semibold mb-4">Ari and Angga</h2>
         <h6 className="text-2xl mb-8 font-semibold">
-          Software Engineer at Tokopedia
+          Software Engineer
         </h6>
         <p className="mb-7">
-          I shape ideas into compelling user interfaces, seamlessly blending
+          We shape ideas into compelling user interfaces, seamlessly blending
           code and <br />
           creativity to redefine the digital landscape.
         </p>

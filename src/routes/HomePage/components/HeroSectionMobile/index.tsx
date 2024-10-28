@@ -11,7 +11,7 @@ const HeroSectionMobile = () => {
       <div className="text-lg mb-1">
         <Typewriter
           options={{
-            strings: ["Hello, I'm", "Halo, perkenalkan saya"],
+            strings: ["Hello, We Are", "Halo, perkenalkan kami"],
             autoStart: true,
             loop: true,
           }}
