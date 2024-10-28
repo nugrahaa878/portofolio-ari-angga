@@ -41,4 +41,20 @@ export const LIST_PROJECTS: Project[] = [
     title: "Portfolio Website",
     webLink: "https://arinugraha.dev/",
   },
+  {
+    details:
+    "In this project, I have demonstrated proficiency in implementing end-to-end CI/CD processes from scratch and integrating them seamlessly with cloud services such as Google Cloud Platform (GCP). Ive created and set up my own GitHub workflow file to build the Vite project. Afterward, I integrated it with Cloud Run on GCP so that any changes in my repository will trigger a build and push to Cloud Run, updating my website automatically.",
+    imgUrl: "https://i.ibb.co.com/gd58k9q/app-icon.png",
+    techStack: ["Flutter", "Cloud", "Docker"],
+    title: "PHR Fasilkom UI",
+    webLink: "https://phr-fasilkom.netlify.app/",
+  },
+  {
+    details:
+    "In this project, I have demonstrated proficiency in implementing end-to-end CI/CD processes from scratch and integrating them seamlessly with cloud services such as Google Cloud Platform (GCP). Ive created and set up my own GitHub workflow file to build the Vite project. Afterward, I integrated it with Cloud Run on GCP so that any changes in my repository will trigger a build and push to Cloud Run, updating my website automatically.",
+    imgUrl: "https://i.ibb.co.com/gd58k9q/app-icon.png",
+    techStack: ["Flutter", "Cloud", "Docker"],
+    title: "PHR Fasilkom UI",
+    webLink: "https://phr-fasilkom.netlify.app/",
+  },
 ];
