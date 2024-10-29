@@ -97,3 +97,41 @@ export const LIST_WORK_ARI: Work[] = [
     description: "Joined the Mitra Tokopedia team to improve application performance and develop new features. Created a feature from scratch that enhanced user engagement and boosted webpage load speed by 52.1%, leading to 88.1% of users experiencing homepage load times under 10 seconds",
   },
 ]
+
+export const LIST_WORK_ANGGA: Work[] = [
+  {
+    company: "OY! Indonesia",
+    icon: "https://i.ibb.co.com/DwHJHxN/oy.png",
+    position: "Software Engineer",
+    workDuration: "August 2022 - Present",
+    description: "Led critical performance optimizations including RabbitMQ operations (20% CPU reduction), settlement processes (27.31% latency improvement), and database operations (88.56% latency enhancement). Spearheaded major initiatives including PostgreSQL upgrade, Mastercard gateway integration, and implementation of advanced search optimization achieving 96.97% dashboard load time reduction. Developed key features for payment processing, reporting systems, and monitoring solutions while driving significant cost savings through infrastructure optimization.",
+  },
+  {
+    company: "Tokopedia",
+    icon: tokopedia,
+    position: "Software Engineer, Intern",
+    workDuration: "February 2022 - August 2022",
+    description: "Improved data promo insertion process by 500% and implemented comprehensive monitoring systems using Grafana, NewRelic, and Datadog. Enhanced backend efficiency using Golang concurrency, managed database migrations, and developed internal tools. Achieved 3rd place in Internal Tokopedia Tribe Hackathon.",
+  },
+  {
+    company: "RISTEK UI",
+    icon: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
+    position: "Lead Mobile Developer",
+    workDuration: "March 2021 - March 2022",
+    description: "Led weekly Flutter lectures as a mentor, headed the Backend Team for the Mobdev final project, and coordinated multiple projects valued at approximately 100 million rupiahs. Focused on mobile development education and project management.",
+  },
+  {
+    company: "Sayurbox",
+    icon: "https://i.ibb.co.com/yFpvWdP/sayurbox.jpg",
+    position: "Software Engineer, Intern",
+    workDuration: "June 2021 - September 2021",
+    description: "Enhanced payment integrations with OVO and Oy, implemented security measures for payment callbacks, and set up monitoring systems with Kibana and Grafana. Developed endpoints using Spring Boot and managed deployments through Jenkins while ensuring proper testing coverage.",
+  },
+  {
+    company: "Pinhome",
+    icon: "https://i.ibb.co.com/N7gZNht/pinhome.png",
+    position: "Software Engineer, Intern",
+    workDuration: "December 2020 - May 2021",
+    description: "Developed UI for service provider mobile app serving over 1,600 users, improved customer order allocation by 87%, and created internal data interaction tools. Won 1st place in Internal Pinhome Hackathon (Pinhackathon).",
+  }
+];

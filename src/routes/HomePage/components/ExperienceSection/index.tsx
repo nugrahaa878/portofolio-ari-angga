@@ -1,6 +1,6 @@
 import briefCase from '../../../../assets/briefcase.png';
 import Tag from '../../../../components/Tag';
-import { LIST_WORK_ARI } from '../../constants';
+import { LIST_WORK_ANGGA, LIST_WORK_ARI } from '../../constants';
 
 const ExperienceSection = () => {
 	return (
@@ -41,18 +41,23 @@ const ExperienceSection = () => {
 						<p className="font-bold text-xl text-gray-800">Angga's Work</p>
 					</div>
 
-					{LIST_WORK_ARI.map((work) => (
-						<div className="flex gap-4 mb-8">
-							<img src={work.icon} className="max-h-8 w-auto mt-2 rounded-sm" />
+					{LIST_WORK_ANGGA.map((work) => (
+						<div className="flex gap-4 mb-8 items-start">
+							<img
+								src={work.icon}
+								className="mt-2 rounded-sm min-w-[16px] max-w-[32px] object-contain"
+								alt="work icon"
+							/>
 
 							<div>
 								<p className="font-semibold">{work.company}</p>
-								<p className="italic text-xs mb-2">{work.position}, {work.workDuration}</p>
-								<p className="text-sm">
-									{work.description}
+								<p className="italic text-xs mb-2">
+									{work.position}, {work.workDuration}
 								</p>
+								<p className="text-sm">{work.description}</p>
 							</div>
 						</div>
+
 					))}
 
 					<div className='w-fit self-center mt-3'>
