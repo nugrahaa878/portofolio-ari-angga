@@ -29,15 +29,21 @@ const Navbar = () => {
         >
           <h3>Projects</h3>
         </button>
-        <a href="#" onClick={() => handleRedirectLink(linkedInUrl)}>
-          <h3>Experience</h3>
-        </a>
+        <button
+          onClick={() => {
+            const element = document.getElementById("experiences");
+            element?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          <h3>Experiences</h3>
+        </button>
         <a href="/#">
           <h3>Contact</h3>
         </a>
         <Button
           handleClick={() => {
-            handleRedirectLink(cvLink);
+            const element = document.getElementById("experiences");
+            element?.scrollIntoView({ behavior: "smooth" });
           }}
           text="Resume"
         />

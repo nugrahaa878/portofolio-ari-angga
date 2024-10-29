@@ -1,4 +1,6 @@
-import { Post, Project } from "../types";
+import { Post, Project, Work } from "../types";
+import tokopedia from "../../../assets/tokopedia.png";
+import pashouses from "../../../assets/pashouses.jpeg";
 
 export const LIST_POST: Post[] = [
   {
@@ -78,3 +80,20 @@ export const LIST_PROJECTS: Project[] = [
     webLink: "- (internal only)",
   },
 ];
+
+export const LIST_WORK_ARI: Work[] = [
+  {
+    company: "Pashouses",
+    icon: pashouses,
+    position: "Software Engineer",
+    workDuration: "August 2024 - Present",
+    description: "I create features from scratch and integrate a generative AI chatbot using ChatGPT to enhance user engagement. I manage both the web and mobile applications, using Next.js for the website and Flutter for the app. Additionally, I initiated the documentation process using Storybook to improve development efficiency and collaboration.",
+  },
+  {
+    company: "Tokopedia",
+    icon: tokopedia,
+    position: "Software Engineer",
+    workDuration: "January 2022 - August 2024",
+    description: "Joined the Mitra Tokopedia team to improve application performance and develop new features. Created a feature from scratch that enhanced user engagement and boosted webpage load speed by 52.1%, leading to 88.1% of users experiencing homepage load times under 10 seconds",
+  },
+]

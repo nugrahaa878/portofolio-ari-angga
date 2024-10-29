@@ -16,3 +16,11 @@ export interface Project {
   techStack: string[];
   imgUrl: string;
 }
+
+export interface Work {
+  company: string;
+  icon: string;
+  position: string;
+  workDuration: string;
+  description: string;
+}

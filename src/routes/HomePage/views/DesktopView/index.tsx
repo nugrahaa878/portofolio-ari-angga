@@ -4,6 +4,7 @@ import BackdropHero from "../../../../components/BackdropHero";
 import HeroSection from "../../components/HeroSection";
 import ArticleSection from "../../components/ArticleSection";
 import ProjectSection from "../../components/ProjectSection";
+import ExperienceSection from "../../components/ExperienceSection";
 
 const HomeDesktopView = () => {
   return (
@@ -14,6 +15,7 @@ const HomeDesktopView = () => {
       <HeroSection />
       <ProjectSection />
       <ArticleSection />
+      <ExperienceSection />
     </div>
   );
 };
