@@ -3,6 +3,7 @@ import BackdropNav from "../../../../components/BackdropNav";
 import HumbergerMenu from "../../../../components/HumbergerMenu";
 import ArticleSectionMobile from "../../components/ArticleSectionMobile";
 import ExperienceSectionMobile from "../../components/ExperienceSectionMobile";
+import Footer from "../../components/Footer";
 import HeroSectionMobile from "../../components/HeroSectionMobile";
 import ProjectSectionMobile from "../../components/ProjectSectionMobile";
 
@@ -16,6 +17,7 @@ const HomeMobileView = () => {
       <ProjectSectionMobile />
       <ArticleSectionMobile />
       <ExperienceSectionMobile />
+      <Footer />
     </div>
   );
 };

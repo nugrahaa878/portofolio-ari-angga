@@ -66,7 +66,7 @@ export const LIST_PROJECTS: Project[] = [
   {
     details:
     "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
-    imgUrl: "https://i.ibb.co.com/gd58k9q/app-icon.png",
+    imgUrl: "https://i.ibb.co.com/8rFGHbX/Frame-1.png",
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
