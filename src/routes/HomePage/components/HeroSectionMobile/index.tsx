@@ -7,7 +7,7 @@ import medium from "../../../../assets/medium.png";
 
 const HeroSectionMobile = () => {
   return (
-    <div className="flex flex-col pt-28 text-darkBlue items-center justify-center">
+    <div className="flex flex-col pt-28 text-darkBlue items-center justify-center mb-40">
       <div className="text-lg mb-1">
         <Typewriter
           options={{
