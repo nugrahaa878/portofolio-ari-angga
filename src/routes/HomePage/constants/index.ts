@@ -79,6 +79,65 @@ export const LIST_PROJECTS: Project[] = [
     title: "SIBINKAR Polantas",
     webLink: "- (internal only)",
   },
+  {
+    details: "Bionic Farm is a mobile app that optimizes the coffee supply chain for SMEs. It provides a digital platform for coffee producers, exporters, and processing businesses to manage operations remotely, simplify processes, and access new markets, enhancing competitiveness in the digital economy.",
+    imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
+    techStack: ["Flutter", "Firebase Firestore"],
+    title: "Bionic Farm - FT UI",
+    playStore: "https://play.google.com/store/apps/details?id=com.main.bionic_farm.prod&hl=en"
+  }, 
+  {
+    details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
+    imgUrl: "https://citius.co.id/img/logo.png",
+    techStack: ["Django", "AWS"],
+    title: "SIPRO",
+    webLink: "https://citius.co.id/",
+  },
+  {
+    details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
+    imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
+    techStack: ["Laravel"],
+    title: "CLICK - Company Profile",
+  }, 
+  {
+    details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
+    imgUrl: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
+    techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
+    title: "Susun Jadwal UI",
+    webLink: "https://susunjadwal.cs.ui.ac.id/",
+  }, 
+  {
+    details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
+    imgUrl: "https://i.ibb.co.com/JrK1t9f/ulaskelas.png",
+    techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
+    title: "UlasKelas - Ristek CS UI",
+    playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en"
+  }, {
+    details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
+    imgUrl: "https://i.ibb.co.com/2MpwZCC/brewfier.png",
+    techStack: ["React Native", "Firebase Firestore", "NestJs"],
+    title: "Bruwfier", 
+    playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
+  }, 
+  {
+    details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
+    imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
+    techStack: ["YII"],
+    title: "Borang Pori - RSCM",
+    webLink: "https://www.pori.or.id/"
+  }, 
+  {
+    title: "LawanCovid",
+    details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
+    imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
+    techStack: ["Flutter", "SpringBoot"],
+  },
+  {
+    title: "World Cancer Day - RSCM",
+    details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
+    techStack: ["Laravel", "PostgreSQL", "Vue.js"],
+    imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
+  }
 ];
 
 export const LIST_WORK_ARI: Work[] = [
