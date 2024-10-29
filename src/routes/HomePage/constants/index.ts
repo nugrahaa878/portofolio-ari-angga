@@ -69,4 +69,12 @@ export const LIST_PROJECTS: Project[] = [
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
   },
+  {
+    details:
+    "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
+    imgUrl: "https://i.ibb.co.com/7WyT6n6/police-2.png",
+    techStack: ["ReactJS", "Typescript"],
+    title: "SIBINKAR Polantas",
+    webLink: "- (internal only)",
+  },
 ];
