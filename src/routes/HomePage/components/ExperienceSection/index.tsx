@@ -56,7 +56,7 @@ const ExperienceSection = () => {
 					))}
 
 					<div className='w-fit self-center mt-3'>
-						<Tag text='Resume' onClick={() => window.open('https://drive.google.com/file/d/19uxkHiwbusjfcXJANYVxX0KLdGCKp1iY/view?usp=sharing', '_blank')} />
+						<Tag text='Resume' onClick={() => window.open('https://drive.google.com/file/d/1kDf5LTZKpQVjRCz8UzcZjWYpQtw_8sGH/view', '_blank')} />
 					</div>
 				</div>
 			</div>
