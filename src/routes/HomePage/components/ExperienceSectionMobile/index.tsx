@@ -2,15 +2,15 @@ import briefCase from '../../../../assets/briefcase.png';
 import Tag from '../../../../components/Tag';
 import { LIST_WORK_ARI } from '../../constants';
 
-const ExperienceSection = () => {
+const ExperienceSectionMobile = () => {
 	return (
-		<div className="px-48 mb-40 pt-14" id="experiences">
-			<div className="flex gap-6 items-center mb-10">
+		<div className="mb-40 pt-14" id="experiences">
+			<div className="flex gap-6 items-center px-10 mb-10">
 				<h4 className="text-2xl font-semibold">Work Experiences</h4>
 				<div className="h-0.5 bg-gray-900 w-64 rounded-sm" />
 			</div>
 
-			<div className="flex justify-between gap-10">
+			<div className="flex flex-col justify-between gap-10 px-6">
 				<div className="flex w-full border px-8 py-6 rounded-xl flex-col">
 					<div className='flex items-center gap-5 mb-10'>
 						<img src={briefCase} alt='work-1' className='w-7 h-auto' />
@@ -64,4 +64,4 @@ const ExperienceSection = () => {
 	);
 };
 
-export default ExperienceSection;
+export default ExperienceSectionMobile;
