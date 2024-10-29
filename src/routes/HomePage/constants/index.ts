@@ -80,7 +80,7 @@ export const LIST_PROJECTS: Project[] = [
     title: "LawanCovid",
     details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
     imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
-    techStack: ["Flutter", "SpringBoot"],
+    techStack: ["Flutter", "SpringBoot", "Firebase Firestore"],
   },
   {
     details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
@@ -128,7 +128,7 @@ export const LIST_PROJECTS: Project[] = [
     details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
     imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
     techStack: ["Laravel"],
-    title: "CLICK - Company Profile",
+    title: "CLICK",
   },
 ];
 
