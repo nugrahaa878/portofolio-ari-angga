@@ -57,20 +57,51 @@ export const LIST_PROJECTS: Project[] = [
   },
   {
     details:
-      "In this project, I have demonstrated proficiency in implementing end-to-end CI/CD processes from scratch and integrating them seamlessly with cloud services such as Google Cloud Platform (GCP). Ive created and set up my own GitHub workflow file to build the Vite project. Afterward, I integrated it with Cloud Run on GCP so that any changes in my repository will trigger a build and push to Cloud Run, updating my website automatically.",
-    imgUrl: "https://arinugraha.dev/src/assets/avatar.png",
-    techStack: ["GCP", "Cloud Run", "Typescript", "Docker"],
-    title: "Portfolio Website",
-    webLink: "https://arinugraha.dev/",
-  },
-  {
-    details:
     "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
     imgUrl: "https://i.ibb.co.com/8rFGHbX/Frame-1.png",
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
   },
+  {
+    title: "World Cancer Day - RSCM",
+    details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
+    techStack: ["Laravel", "PostgreSQL", "Vue.js"],
+    imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
+  },
+  {
+    details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
+    imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
+    techStack: ["YII"],
+    title: "Borang Pori - RSCM",
+    webLink: "https://www.pori.or.id/"
+  },
+  {
+    title: "LawanCovid",
+    details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
+    imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
+    techStack: ["Flutter", "SpringBoot"],
+  },
+  {
+    details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
+    imgUrl: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
+    techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
+    title: "Susun Jadwal UI",
+    webLink: "https://susunjadwal.cs.ui.ac.id/",
+  }, 
+  {
+    details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
+    imgUrl: "https://i.ibb.co.com/JrK1t9f/ulaskelas.png",
+    techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
+    title: "UlasKelas - Ristek CS UI",
+    playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en"
+  }, {
+    details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
+    imgUrl: "https://i.ibb.co.com/2MpwZCC/brewfier.png",
+    techStack: ["React Native", "Firebase Firestore", "NestJs"],
+    title: "Bruwfier", 
+    playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
+  }, 
   {
     details:
     "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
@@ -98,46 +129,7 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
     techStack: ["Laravel"],
     title: "CLICK - Company Profile",
-  }, 
-  {
-    details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
-    imgUrl: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
-    techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
-    title: "Susun Jadwal UI",
-    webLink: "https://susunjadwal.cs.ui.ac.id/",
-  }, 
-  {
-    details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
-    imgUrl: "https://i.ibb.co.com/JrK1t9f/ulaskelas.png",
-    techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
-    title: "UlasKelas - Ristek CS UI",
-    playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en"
-  }, {
-    details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
-    imgUrl: "https://i.ibb.co.com/2MpwZCC/brewfier.png",
-    techStack: ["React Native", "Firebase Firestore", "NestJs"],
-    title: "Bruwfier", 
-    playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
-  }, 
-  {
-    details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
-    imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
-    techStack: ["YII"],
-    title: "Borang Pori - RSCM",
-    webLink: "https://www.pori.or.id/"
-  }, 
-  {
-    title: "LawanCovid",
-    details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
-    imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
-    techStack: ["Flutter", "SpringBoot"],
   },
-  {
-    title: "World Cancer Day - RSCM",
-    details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
-    techStack: ["Laravel", "PostgreSQL", "Vue.js"],
-    imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
-  }
 ];
 
 export const LIST_WORK_ARI: Work[] = [
