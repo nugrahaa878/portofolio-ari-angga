@@ -21,7 +21,7 @@ const HeroSectionMobile = () => {
       <img src={pairProgramming} width={200} alt="avatar" className="mb-8 mt-8" />
 
       <h1 className="text-md mb-5 font-semibold">
-        Software Engineer at Tokopedia
+        Software Engineer
       </h1>
       <p className="mb-7 text-xs text-center px-14">
         We shape ideas into compelling user interfaces, seamlessly blending code

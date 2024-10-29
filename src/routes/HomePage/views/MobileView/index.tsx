@@ -1,6 +1,7 @@
 import BackdropHero from "../../../../components/BackdropHero";
 import BackdropNav from "../../../../components/BackdropNav";
 import HeroSectionMobile from "../../components/HeroSectionMobile";
+import ProjectSectionMobile from "../../components/ProjectSectionMobile";
 
 const HomeMobileView = () => {
   return (
@@ -9,6 +10,7 @@ const HomeMobileView = () => {
       <BackdropNav />
       <BackdropHero />
       <HeroSectionMobile />
+      <ProjectSectionMobile />
     </div>
   );
 };
