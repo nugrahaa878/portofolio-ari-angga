@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 
-import avatar3d from "../../../../assets/avatar.png";
+import pairProgramming from "../../../../assets/pair-programming.svg";
 import linkedin from "../../../../assets/linkedin.png";
 import github from "../../../../assets/github.png";
 import medium from "../../../../assets/medium.png";
@@ -41,7 +41,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <img src={avatar3d} width={270} alt="avatar" />
+      <img src={pairProgramming} width={270} alt="avatar" />
     </div>
   );
 };

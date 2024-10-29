@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 
-import avatar3d from "../../../../assets/avatar.png";
+import pairProgramming from "../../../../assets/pair-programming.svg";
 import linkedin from "../../../../assets/linkedin.png";
 import github from "../../../../assets/github.png";
 import medium from "../../../../assets/medium.png";
@@ -17,14 +17,14 @@ const HeroSectionMobile = () => {
           }}
         />
       </div>
-      <h2 className="text-3xl font-semibold mb-4">Ari Angga Nugraha</h2>
-      <img src={avatar3d} width={200} alt="avatar" className="mb-8" />
+      <h2 className="text-3xl font-semibold mb-4">Ari and Angga</h2>
+      <img src={pairProgramming} width={200} alt="avatar" className="mb-8 mt-8" />
 
       <h1 className="text-md mb-5 font-semibold">
         Software Engineer at Tokopedia
       </h1>
       <p className="mb-7 text-xs text-center px-14">
-        I shape ideas into compelling user interfaces, seamlessly blending code
+        We shape ideas into compelling user interfaces, seamlessly blending code
         and <br />
         creativity to redefine the digital landscape.
       </p>

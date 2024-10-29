@@ -13,6 +13,26 @@ export const LIST_POST: Post[] = [
   },
   {
     content:
+      "In this article, we'll show you how OY! is boosting database performance, focusing on partitioning in the settlement process. This article delves into the planning phase of our partitioning strategy...",
+    date: "23 July 2024",
+    imgLink:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*jvKgalrXQALy0I0F7VV1ww.jpeg",
+    section: "Backend",
+    title: "How we implement Table Partitioning Without Any Downtime — Planning",
+    url: "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-planning-fa57e43eb685",
+  },
+  {
+    content:
+      "This article details the implementation process, including the creation of partition tables, data migration, and post-migration optimizations. We also highlight the significant improvements...",
+    date: "23 July 2024",
+    imgLink:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*jvKgalrXQALy0I0F7VV1ww.jpeg",
+    section: "Backend",
+    title: "How we implement Table Partitioning Without Any Downtime — Execution",
+    url: "https://medium.com/oyindonesia/how-we-implement-table-partitioning-without-any-downtime-execution-eadac94db8bb",
+  },
+  {
+    content:
       "Halo teman teman semua, kembali lagi ke pembahasan kita tentang dunia Software Engineering. Pada kesempatan kali ini kita akan membahas tentang Clean Code. Jadi apa itu Clean Code? Apa yang harus dibersihkan?...",
     date: "5 April 2021",
     imgLink:
@@ -43,15 +63,7 @@ export const LIST_PROJECTS: Project[] = [
   },
   {
     details:
-    "In this project, I have demonstrated proficiency in implementing end-to-end CI/CD processes from scratch and integrating them seamlessly with cloud services such as Google Cloud Platform (GCP). Ive created and set up my own GitHub workflow file to build the Vite project. Afterward, I integrated it with Cloud Run on GCP so that any changes in my repository will trigger a build and push to Cloud Run, updating my website automatically.",
-    imgUrl: "https://i.ibb.co.com/gd58k9q/app-icon.png",
-    techStack: ["Flutter", "Cloud", "Docker"],
-    title: "PHR Fasilkom UI",
-    webLink: "https://phr-fasilkom.netlify.app/",
-  },
-  {
-    details:
-    "In this project, I have demonstrated proficiency in implementing end-to-end CI/CD processes from scratch and integrating them seamlessly with cloud services such as Google Cloud Platform (GCP). Ive created and set up my own GitHub workflow file to build the Vite project. Afterward, I integrated it with Cloud Run on GCP so that any changes in my repository will trigger a build and push to Cloud Run, updating my website automatically.",
+    "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
     imgUrl: "https://i.ibb.co.com/gd58k9q/app-icon.png",
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
