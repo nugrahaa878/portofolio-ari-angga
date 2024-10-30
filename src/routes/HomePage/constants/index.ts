@@ -99,6 +99,14 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
     techStack: ["Flutter", "SpringBoot", "Firebase Firestore"],
     webLink: "http://bit.ly/VideoLawanCovid",
+    preview: ["https://i.ibb.co.com/sPMpfPX/Screenshot-2024-10-30-at-09-47-20.png",
+      "https://i.ibb.co.com/8N7LqsM/Screenshot-2024-10-30-at-09-47-02.png",
+      "https://i.ibb.co.com/8MhzHT5/Screenshot-2024-10-30-at-09-47-13.png",
+      "https://i.ibb.co.com/V9ZW8fG/Screenshot-2024-10-30-at-09-47-29.png",
+      "https://i.ibb.co.com/3FRYNK3/Screenshot-2024-10-30-at-09-47-38.png",
+      "https://i.ibb.co.com/7k8qN4H/Screenshot-2024-10-30-at-09-47-49.png",
+      "https://i.ibb.co.com/ZBKw6JW/Screenshot-2024-10-30-at-09-47-55.png",
+      "https://i.ibb.co.com/S52HC34/Screenshot-2024-10-30-at-09-48-03.png"]
   },
   {
     details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
@@ -123,20 +131,6 @@ export const LIST_PROJECTS: Project[] = [
     playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
   },
   {
-    details:
-      "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
-    imgUrl: "https://i.ibb.co.com/7WyT6n6/police-2.png",
-    techStack: ["ReactJS", "Typescript"],
-    title: "SIBINKAR Polantas",
-    webLink: "- (internal only)",
-  },
-  {
-    details: "Bionic Farm is a mobile app that optimizes the coffee supply chain for SMEs. It provides a digital platform for coffee producers, exporters, and processing businesses to manage operations remotely, simplify processes, and access new markets, enhancing competitiveness in the digital economy.",
-    imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
-    techStack: ["Flutter", "Firebase Firestore"],
-    title: "Bionic Farm - FT UI",
-  },
-  {
     details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
     imgUrl: "https://citius.co.id/img/logo.png",
     techStack: ["Django", "AWS"],
@@ -155,6 +149,20 @@ export const LIST_PROJECTS: Project[] = [
     title: "CLICK",
     preview: ["https://i.ibb.co.com/N17NCg5/Screenshot-2024-10-30-at-09-12-03.png", "https://i.ibb.co.com/vQkszKn/Screenshot-2024-10-30-at-09-12-15.png"]
   },
+  {
+    details:
+      "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
+    imgUrl: "https://i.ibb.co.com/7WyT6n6/police-2.png",
+    techStack: ["ReactJS", "Typescript"],
+    title: "SIBINKAR Polantas",
+    webLink: "- (internal only)",
+  },
+  {
+    details: "Bionic Farm is a mobile app that optimizes the coffee supply chain for SMEs. It provides a digital platform for coffee producers, exporters, and processing businesses to manage operations remotely, simplify processes, and access new markets, enhancing competitiveness in the digital economy.",
+    imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
+    techStack: ["Flutter", "Firebase Firestore"],
+    title: "Bionic Farm - FT UI",
+  }
 ];
 
 export const LIST_WORK_ARI: Work[] = [
