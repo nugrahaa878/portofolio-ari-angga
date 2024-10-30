@@ -15,6 +15,7 @@ export interface Project {
   details: string;
   techStack: string[];
   imgUrl: string;
+  preview?: string[];
 }
 
 export interface Work {

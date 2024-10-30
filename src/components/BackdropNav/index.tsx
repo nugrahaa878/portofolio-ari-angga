@@ -12,6 +12,7 @@ const BackdropNav = () => {
         right: `${isAndroid ? "-20vw" : "-10vw"}`,
         top: `${isAndroid ? "-4%" : "-15%"}`,
         width: `${isAndroid ? "250px" : "500px"}`,
+        zIndex: -1,
       }}
       alt="backdrop-nav"
     />

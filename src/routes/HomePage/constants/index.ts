@@ -54,20 +54,37 @@ export const LIST_PROJECTS: Project[] = [
     title: "Logbook Anestesi UI",
     playStore: "play.google.com/store/apps/details?id=com.mobile.logbook_app",
     webLink: "https://anestesi-ui.id/",
+    preview: ["https://i.ibb.co.com/nwdHGhC/Screenshot-2024-10-30-at-08-24-37.png",
+      "https://i.ibb.co.com/TLBfCTt/Screenshot-2024-10-30-at-08-24-40.png",
+      "https://i.ibb.co.com/XyZ2v2N/Screenshot-2024-10-30-at-08-24-43.png",
+      "https://i.ibb.co.com/27X8gDC/Screenshot-2024-10-30-at-08-24-50.png",
+      "https://i.ibb.co.com/vXqZnT3/Screenshot-2024-10-30-at-08-25-06.png",
+      "https://i.ibb.co.com/DbZLQPY/Screenshot-2024-10-30-at-08-25-20.png",
+      "https://i.ibb.co.com/wBmQynQ/Screenshot-2024-10-30-at-08-25-32.png"]
   },
   {
     details:
-    "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
+      "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
     imgUrl: "https://i.ibb.co.com/8rFGHbX/Frame-1.png",
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
+    preview: ["https://i.ibb.co.com/LxSggZ2/Screenshot-2024-10-30-at-08-59-11.png",
+      "https://i.ibb.co.com/m4NmBFv/Screenshot-2024-10-30-at-08-59-22.png",
+      "https://i.ibb.co.com/kqqtm0h/Screenshot-2024-10-30-at-08-59-53.png",
+      "https://i.ibb.co.com/hZjv2ST/Screenshot-2024-10-30-at-09-00-02.png",
+      "https://i.ibb.co.com/sbTsbH3/Screenshot-2024-10-30-at-09-00-12.png",
+      "https://i.ibb.co.com/10vM8sH/Screenshot-2024-10-30-at-09-01-06.png",
+      "https://i.ibb.co.com/bdhG9Wq/Screenshot-2024-10-30-at-09-01-17.png",
+      "https://i.ibb.co.com/s2cwdmy/Screenshot-2024-10-30-at-09-02-02.png",
+      "https://i.ibb.co.com/fpbLj41/Screenshot-2024-10-30-at-09-02-12.png"]
   },
   {
     title: "World Cancer Day - RSCM",
     details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
     techStack: ["Laravel", "PostgreSQL", "Vue.js"],
     imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
+    preview: ["https://i.ibb.co.com/vY2KTMY/Screenshot-2024-10-29-at-18-51-39.png", "https://i.ibb.co.com/fqb8Sqd/Screenshot-2024-10-29-at-18-52-11.png"]
   },
   {
     details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
@@ -81,6 +98,15 @@ export const LIST_PROJECTS: Project[] = [
     details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
     imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
     techStack: ["Flutter", "SpringBoot", "Firebase Firestore"],
+    webLink: "http://bit.ly/VideoLawanCovid",
+    preview: ["https://i.ibb.co.com/sPMpfPX/Screenshot-2024-10-30-at-09-47-20.png",
+      "https://i.ibb.co.com/8N7LqsM/Screenshot-2024-10-30-at-09-47-02.png",
+      "https://i.ibb.co.com/8MhzHT5/Screenshot-2024-10-30-at-09-47-13.png",
+      "https://i.ibb.co.com/V9ZW8fG/Screenshot-2024-10-30-at-09-47-29.png",
+      "https://i.ibb.co.com/3FRYNK3/Screenshot-2024-10-30-at-09-47-38.png",
+      "https://i.ibb.co.com/7k8qN4H/Screenshot-2024-10-30-at-09-47-49.png",
+      "https://i.ibb.co.com/ZBKw6JW/Screenshot-2024-10-30-at-09-47-55.png",
+      "https://i.ibb.co.com/S52HC34/Screenshot-2024-10-30-at-09-48-03.png"]
   },
   {
     details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
@@ -88,23 +114,44 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
     title: "Susun Jadwal UI",
     webLink: "https://susunjadwal.cs.ui.ac.id/",
-  }, 
+    preview: ["https://www.ristek.cs.ui.ac.id/_next/image?url=https%3A%2F%2Fd2becjj2vuzyyp.cloudfront.net%2F1710615233855_sunjad.webp&w=1080&q=75"]
+  },
   {
     details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
     imgUrl: "https://i.ibb.co.com/JrK1t9f/ulaskelas.png",
     techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
     title: "UlasKelas - Ristek CS UI",
-    playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en"
+    playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en",
+    preview: ["https://www.ristek.cs.ui.ac.id/_next/image?url=https%3A%2F%2Fd2becjj2vuzyyp.cloudfront.net%2F1710645527131_UlasKelas.webp&w=1080&q=75"]
   }, {
     details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
     imgUrl: "https://i.ibb.co.com/2MpwZCC/brewfier.png",
     techStack: ["React Native", "Firebase Firestore", "NestJs"],
-    title: "Bruwfier", 
+    title: "Bruwfier",
     playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
-  }, 
+  },
+  {
+    details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
+    imgUrl: "https://citius.co.id/img/logo.png",
+    techStack: ["Django", "AWS"],
+    title: "SIPRO",
+    webLink: "https://citius.co.id/",
+    preview: ["https://i.ibb.co.com/jWcdNdr/Screenshot-2024-10-29-at-18-45-49.png",
+      "https://i.ibb.co.com/HH46VFR/Screenshot-2024-10-29-at-18-46-08.png",
+      "https://i.ibb.co.com/C0pm0H6/Screenshot-2024-10-29-at-18-46-22.png",
+      "https://i.ibb.co.com/fH8fNbP/Screenshot-2024-10-29-at-18-46-33.png",
+      "https://i.ibb.co.com/mB2fdRm/Screenshot-2024-10-29-at-18-46-48.png"]
+  },
+  {
+    details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
+    imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
+    techStack: ["Laravel"],
+    title: "CLICK",
+    preview: ["https://i.ibb.co.com/N17NCg5/Screenshot-2024-10-30-at-09-12-03.png", "https://i.ibb.co.com/vQkszKn/Screenshot-2024-10-30-at-09-12-15.png"]
+  },
   {
     details:
-    "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
+      "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
     imgUrl: "https://i.ibb.co.com/7WyT6n6/police-2.png",
     techStack: ["ReactJS", "Typescript"],
     title: "SIBINKAR Polantas",
@@ -115,21 +162,7 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
     techStack: ["Flutter", "Firebase Firestore"],
     title: "Bionic Farm - FT UI",
-    playStore: "https://play.google.com/store/apps/details?id=com.main.bionic_farm.prod&hl=en"
-  }, 
-  {
-    details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
-    imgUrl: "https://citius.co.id/img/logo.png",
-    techStack: ["Django", "AWS"],
-    title: "SIPRO",
-    webLink: "https://citius.co.id/",
-  },
-  {
-    details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
-    imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
-    techStack: ["Laravel"],
-    title: "CLICK",
-  },
+  }
 ];
 
 export const LIST_WORK_ARI: Work[] = [

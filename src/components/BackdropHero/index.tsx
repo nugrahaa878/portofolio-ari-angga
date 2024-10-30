@@ -12,6 +12,7 @@ const BackdropHero = () => {
         left: `${isAndroid ? "-20vw" : "-15vw"}`,
         top: `${isAndroid ? "50vh" : "20vh"}`,
         width: `${isAndroid ? "250px" : "450px"}`,
+        zIndex: -1,
       }}
       alt="backdrop-hero"
     />

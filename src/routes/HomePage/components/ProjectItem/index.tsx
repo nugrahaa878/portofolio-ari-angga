@@ -49,7 +49,9 @@ const ProjectItem = ({ project }: Props) => {
         <p className="text-sm mt-2">{project.details}</p>
 
         <div className="flex gap-4 mt-2">
-          <ImageGalleryModal />
+          { project.preview && (
+            <ImageGalleryModal images={project.preview}/>
+          )}
 
           {project.techStack.map((tech) => (
             <Tag text={tech} key={tech} />
