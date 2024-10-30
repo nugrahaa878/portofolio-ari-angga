@@ -18,7 +18,7 @@ const HeroSection = () => {
             }}
           />
         </div>
-        <h2 className="text-5xl font-semibold mb-4">Ari and Angga</h2>
+        <h2 className="text-5xl font-semibold mb-4">ANE</h2>
         <h6 className="text-2xl mb-8 font-semibold">
           Software Engineer
         </h6>
