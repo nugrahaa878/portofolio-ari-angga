@@ -1,9 +1,9 @@
 import Typewriter from "typewriter-effect";
 
 import pairProgramming from "../../../../assets/pair-programming.svg";
-import linkedin from "../../../../assets/linkedin.png";
-import github from "../../../../assets/github.png";
-import medium from "../../../../assets/medium.png";
+// import linkedin from "../../../../assets/linkedin.png";
+// import github from "../../../../assets/github.png";
+// import medium from "../../../../assets/medium.png";
 
 const HeroSectionMobile = () => {
   return (
@@ -29,7 +29,7 @@ const HeroSectionMobile = () => {
         creativity to redefine the digital landscape.
       </p>
 
-      <div className="flex gap-4 z-10">
+      {/* <div className="flex gap-4 z-10">
         <a href="https://www.linkedin.com/in/nugrahaa878/" target="_blank">
           <img src={linkedin} width={40} alt="linkedin" />
         </a>
@@ -39,7 +39,7 @@ const HeroSectionMobile = () => {
         <a href="https://medium.com/@nugrahaa878" target="_blank">
           <img src={medium} width={40} alt="medium" />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

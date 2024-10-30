@@ -8,14 +8,6 @@ const Navbar = () => {
       <div className="flex gap-16 items-center">
         <button
           onClick={() => {
-            const element = document.getElementById("articles");
-            element?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          <h3>Article</h3>
-        </button>
-        <button
-          onClick={() => {
             const element = document.getElementById("projects");
             element?.scrollIntoView({ behavior: "smooth" });
           }}
@@ -30,9 +22,17 @@ const Navbar = () => {
         >
           <h3>Experiences</h3>
         </button>
-        <a href="/#">
+        <button
+          onClick={() => {
+            const element = document.getElementById("articles");
+            element?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          <h3>Article</h3>
+        </button>
+        {/* <a href="/#">
           <h3>Contact</h3>
-        </a>
+        </a> */}
         <Button
           handleClick={() => {
             const element = document.getElementById("experiences");
