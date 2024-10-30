@@ -8,7 +8,7 @@ const ArticleSectionMobile = () => {
   return (
     <div className="mb-24 pt-14" id="articles">
       <div className="flex gap-6 items-center px-10 mb-10">
-        <h4 className="text-2xl font-semibold">Projects</h4>
+        <h4 className="text-2xl font-semibold">Recently Post</h4>
         <div className="h-0.5 bg-gray-900 w-64 rounded-sm" />
       </div>
 
