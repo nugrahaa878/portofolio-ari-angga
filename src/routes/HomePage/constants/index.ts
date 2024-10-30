@@ -54,7 +54,13 @@ export const LIST_PROJECTS: Project[] = [
     title: "Logbook Anestesi UI",
     playStore: "play.google.com/store/apps/details?id=com.mobile.logbook_app",
     webLink: "https://anestesi-ui.id/",
-    preview: ["https://ibb.co.com/Jc6f1XQ","https://ibb.co.com/VmW1KNT","https://ibb.co.com/tZMmWmk","https://ibb.co.com/pvCWJtM","https://ibb.co.com/xFLJTB1","https://ibb.co.com/ZJ0NxRS","https://ibb.co.com/TY30cQ0"]
+    preview: ["https://i.ibb.co.com/nwdHGhC/Screenshot-2024-10-30-at-08-24-37.png",
+      "https://i.ibb.co.com/TLBfCTt/Screenshot-2024-10-30-at-08-24-40.png",
+      "https://i.ibb.co.com/XyZ2v2N/Screenshot-2024-10-30-at-08-24-43.png",
+      "https://i.ibb.co.com/27X8gDC/Screenshot-2024-10-30-at-08-24-50.png",
+      "https://i.ibb.co.com/vXqZnT3/Screenshot-2024-10-30-at-08-25-06.png",
+      "https://i.ibb.co.com/DbZLQPY/Screenshot-2024-10-30-at-08-25-20.png",
+      "https://i.ibb.co.com/wBmQynQ/Screenshot-2024-10-30-at-08-25-32.png"]
   },
   {
     details:
@@ -63,14 +69,22 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
-    preview: ["https://ibb.co.com/F56YYDj", "https://ibb.co.com/TtWZTqK", "https://ibb.co.com/BTT9njg", "https://ibb.co.com/cCHd2js", "https://ibb.co.com/KbtVbwy", "https://ibb.co.com/Twv1mKz", "https://ibb.co.com/f0RTw1B", "https://ibb.co.com/kxz8sHQ", "https://ibb.co.com/MVbQFM2"]
+    preview: ["https://i.ibb.co.com/LxSggZ2/Screenshot-2024-10-30-at-08-59-11.png",
+      "https://i.ibb.co.com/m4NmBFv/Screenshot-2024-10-30-at-08-59-22.png",
+      "https://i.ibb.co.com/kqqtm0h/Screenshot-2024-10-30-at-08-59-53.png",
+      "https://i.ibb.co.com/hZjv2ST/Screenshot-2024-10-30-at-09-00-02.png",
+      "https://i.ibb.co.com/sbTsbH3/Screenshot-2024-10-30-at-09-00-12.png",
+      "https://i.ibb.co.com/10vM8sH/Screenshot-2024-10-30-at-09-01-06.png",
+      "https://i.ibb.co.com/bdhG9Wq/Screenshot-2024-10-30-at-09-01-17.png",
+      "https://i.ibb.co.com/s2cwdmy/Screenshot-2024-10-30-at-09-02-02.png",
+      "https://i.ibb.co.com/fpbLj41/Screenshot-2024-10-30-at-09-02-12.png"]
   },
   {
     title: "World Cancer Day - RSCM",
     details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
     techStack: ["Laravel", "PostgreSQL", "Vue.js"],
     imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
-    preview: ["https://ibb.co.com/Hdmkb9d","https://ibb.co.com/7jHgzjt"]
+    preview: ["https://i.ibb.co.com/vY2KTMY/Screenshot-2024-10-29-at-18-51-39.png", "https://i.ibb.co.com/fqb8Sqd/Screenshot-2024-10-29-at-18-52-11.png"]
   },
   {
     details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
@@ -128,14 +142,18 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["Django", "AWS"],
     title: "SIPRO",
     webLink: "https://citius.co.id/",
-    preview: ["https://ibb.co.com/gP5G2GR","https://ibb.co.com/9rg6N8B","https://ibb.co.com/PCsFC6M","https://ibb.co.com/yqhtkDb","https://ibb.co.com/BPQ0vfm"]
+    preview: ["https://i.ibb.co.com/jWcdNdr/Screenshot-2024-10-29-at-18-45-49.png",
+      "https://i.ibb.co.com/HH46VFR/Screenshot-2024-10-29-at-18-46-08.png",
+      "https://i.ibb.co.com/C0pm0H6/Screenshot-2024-10-29-at-18-46-22.png",
+      "https://i.ibb.co.com/fH8fNbP/Screenshot-2024-10-29-at-18-46-33.png",
+      "https://i.ibb.co.com/mB2fdRm/Screenshot-2024-10-29-at-18-46-48.png"]
   },
   {
     details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
     imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
     techStack: ["Laravel"],
     title: "CLICK",
-    preview: ["https://ibb.co.com/mvSyTrk","https://ibb.co.com/D8QGKS2"]
+    preview: ["https://i.ibb.co.com/N17NCg5/Screenshot-2024-10-30-at-09-12-03.png", "https://i.ibb.co.com/vQkszKn/Screenshot-2024-10-30-at-09-12-15.png"]
   },
 ];
 

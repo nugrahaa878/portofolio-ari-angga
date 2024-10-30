@@ -7,18 +7,15 @@ import {
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const ImageGalleryModal = () => {
+interface Props {
+	images: string[];
+  }
+
+const ImageGalleryModal = ({ images }: Props) => {
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 	const [touchStart, setTouchStart] = useState<number>(0);
 	const [touchEnd, setTouchEnd] = useState<number>(0);
 
-	// Sample images array - replace with your actual images
-	const images = [
-		"https://i.ibb.co.com/DwHJHxN/oy.png",
-		"https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
-		"https://i.ibb.co.com/yFpvWdP/sayurbox.jpg",
-		"https://i.ibb.co.com/N7gZNht/pinhome.png"
-	];
 
 	const handleNext = () => {
 		setCurrentImageIndex((prev) =>

@@ -2,6 +2,7 @@ import { Project } from "../../types";
 import playStoreImg from "../../../../assets/playstore.png";
 import webImg from "../../../../assets/web.png";
 import Tag from "../../../../components/Tag";
+import ImageGalleryModal from "@/components/ImageGalleryModal";
 
 interface Props {
 	project: Project;
@@ -51,6 +52,10 @@ const ProjectItemMobile = ({ project }: Props) => {
 
 			<div className="flex flex-col gap-2 px-5">
 				<p className="text-sm mt-2">{project.details}</p>
+
+				{ project.preview && (
+					<ImageGalleryModal images={project.preview}/>
+				)}
 
 				<div className="flex gap-4 mt-2 flex-wrap justify-center">
 					{project.techStack.map((tech) => (
