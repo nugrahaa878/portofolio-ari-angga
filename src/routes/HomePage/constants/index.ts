@@ -121,8 +121,6 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
     techStack: ["Flutter", "Firebase Firestore"],
     title: "Bionic Farm - FT UI",
-    // playStore: "https://play.google.com/store/apps/details?id=com.main.bionic_farm.prod&hl=en"
-    // preview
   },
   {
     details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
