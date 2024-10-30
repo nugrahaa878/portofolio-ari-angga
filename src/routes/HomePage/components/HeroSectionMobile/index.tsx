@@ -18,7 +18,7 @@ const HeroSectionMobile = () => {
         />
       </div>
       <h2 className="text-3xl font-semibold mb-4">ANE</h2>
-      <h3 className="text-3xl font-semibold mb-4">Ari - Nur - Angga</h3>
+      <h3 className="text-2xl font-semibold mb-4">Ari - Nur - Erlangga</h3>
       <img src={pairProgramming} width={200} alt="avatar" className="mb-8 mt-8" />
 
       <h1 className="text-md mb-5 font-semibold">
