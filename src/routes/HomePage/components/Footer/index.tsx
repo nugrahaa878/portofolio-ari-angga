@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<div className="w-full bg-gray-300 py-3 px-48 flex items-center justify-center">
-			<p>© 2024 Ari and Angga. All Rights Reserved.</p>
+			<p>© 2024 ANE. All Rights Reserved.</p>
 		</div>
 	)
 }
