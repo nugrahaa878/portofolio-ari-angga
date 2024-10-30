@@ -89,6 +89,48 @@ const ExperienceSection = () => {
 						</a>
 					</div>
 				</div>
+				<div className="flex w-full border px-8 py-6 rounded-xl flex-col">
+    <div className='flex items-center gap-5 mb-10'>
+        <img src={briefCase} alt='work-1' className='w-7 h-auto' />
+        <p className="font-bold text-xl text-gray-800">Nur's Work</p>
+    </div>
+
+    <div className="flex gap-4 mb-8">
+        <img src="https://cdn-images-1.medium.com/v2/resize:fit:1200/1*md5YYw2WZ39LWnDtE2Vb5A.png" className="max-h-8 w-auto mt-2 rounded-sm" alt="traveloka" />
+        <div>
+            <p className="font-semibold">Traveloka</p>
+            <p className="italic text-xs mb-2">Backend Engineer, Dec 2022 - Now</p>
+            <p className="text-sm">
+                - Worked as a backend engineer for Traveloka PayLater
+            </p>
+        </div>
+    </div>
+
+    <div className="flex gap-4 mb-8">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Shopee-logo.jpg" className="max-h-8 w-auto mt-2 rounded-sm" alt="shopee" />
+        <div>
+            <p className="font-semibold">Shopee</p>
+            <p className="italic text-xs mb-2">Engineer, Feb 2022 - Dec 2022</p>
+            <p className="text-sm">
+                - Worked in Singapore regional team as software quality assurance for a meantime<br/>
+                - Assisted regional and local product manager in a new feature release
+            </p>
+        </div>
+    </div>
+
+    <div className='w-fit self-center mt-3'>
+        <Tag text='Resume' onClick={() => window.open('https://drive.google.com/file/d/1zkot6d1cxp8qvNQlvPyuaM70iaVDWGMn/view?usp=sharing', '_blank')} />
+    </div>
+    <div className="w-fit self-center mt-3 flex gap-4">
+        <a href="https://www.linkedin.com/in/hasanahnur/" target="_blank">
+            <img src={linkedin} width={40} alt="linkedin" />
+        </a>
+        <a href="https://github.com/hasanahnur3" target="_blank">
+            <img src={github} width={40} alt="github" />
+        </a>
+    </div>
+</div>
+
 			</div>
 		</div>
 	);
