@@ -164,8 +164,7 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
     techStack: ["YII"],
     title: "Borang Pori - RSCM",
-    webLink: "https://www.pori.or.id/",
-    preview: ["https://i.ibb.co.com/KpGpgMcv/susun-jadwal.png"]
+    webLink: "https://www.pori.or.id/"
   },
 ];
 
