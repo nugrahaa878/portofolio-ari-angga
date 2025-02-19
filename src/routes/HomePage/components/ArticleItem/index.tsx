@@ -10,7 +10,7 @@ const ArticleItem = ({ post }: Props) => {
       href={post.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-16"
+      className="flex justify-between items-start gap-8 hover:opacity-80 transition-opacity"
     >
       <div className="flex flex-col">
         <p className="italic mb-1">
@@ -20,8 +20,12 @@ const ArticleItem = ({ post }: Props) => {
         <p>{post.content}</p>
       </div>
 
-      <div className="min-w-44 w-60">
-        <img src={post.imgLink} alt={`Ilustrasi-${post.title}`} />
+      <div className="w-[200px] h-[150px] flex-shrink-0 flex items-center justify-center">
+        <img 
+          src={post.imgLink} 
+          alt={`Ilustrasi-${post.title}`}
+          className="object-cover rounded-lg"
+        />
       </div>
     </a>
   );
