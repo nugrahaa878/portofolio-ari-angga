@@ -49,42 +49,43 @@ export const LIST_PROJECTS: Project[] = [
   {
     details:
       "Logbook App for the Faculty of Medicine, Universitas Indonesia. For faster development, I've integrated some features as Web Views. For the Flutter side, I'm utilizing Cubit for state management and implementing separation of concerns for improved readability and maintainability. On the web side, we are using React with Typescript, implementing React Context for state management, and utilizing the Chakra-UI component library.",
-    imgUrl: "https://i.ibb.co.com/m98zxp7/logbook-logo.png",
+    imgUrl: "https://i.ibb.co.com/FqzhrWhN/logbook-logo.png",
     techStack: ["Flutter", "React", "Typescript", "Cubit"],
     title: "Logbook Anestesi UI",
     playStore: "play.google.com/store/apps/details?id=com.mobile.logbook_app",
     webLink: "https://anestesi-ui.id/",
-    preview: ["https://i.ibb.co.com/nwdHGhC/Screenshot-2024-10-30-at-08-24-37.png",
-      "https://i.ibb.co.com/TLBfCTt/Screenshot-2024-10-30-at-08-24-40.png",
-      "https://i.ibb.co.com/XyZ2v2N/Screenshot-2024-10-30-at-08-24-43.png",
-      "https://i.ibb.co.com/27X8gDC/Screenshot-2024-10-30-at-08-24-50.png",
-      "https://i.ibb.co.com/vXqZnT3/Screenshot-2024-10-30-at-08-25-06.png",
-      "https://i.ibb.co.com/DbZLQPY/Screenshot-2024-10-30-at-08-25-20.png",
-      "https://i.ibb.co.com/wBmQynQ/Screenshot-2024-10-30-at-08-25-32.png"]
+    preview: ["https://i.ibb.co.com/5NcH6Pc/Screenshot-2024-10-30-at-08-24-37.png",
+      "https://i.ibb.co.com/YFGm8CF1/Screenshot-2024-10-30-at-08-24-40.png",
+      "https://i.ibb.co.com/Jwnkh6Sx/Screenshot-2024-10-30-at-08-24-43.png",
+      "https://i.ibb.co.com/1t9g1b1P/Screenshot-2024-10-30-at-08-24-50.png",
+      "https://i.ibb.co.com/rGNvSNq2/Screenshot-2024-10-30-at-08-25-06.png",
+      "https://i.ibb.co.com/DfwY4Xgd/Screenshot-2024-10-30-at-08-25-20.png",
+      "https://i.ibb.co.com/8Lfj5GFS/Screenshot-2024-10-30-at-08-25-32.png"]
   },
   {
     details:
       "A comprehensive website designed to record and monitor individual medical activities. The platform includes features for ongoing health tracking and an extensive medical history record. Users can also search for healthcare facilities in specific locations, making it easy to access relevant health services nearby. This tool is ideal for personal health management and accessing care resources efficiently.",
-    imgUrl: "https://i.ibb.co.com/8rFGHbX/Frame-1.png",
+    imgUrl: "https://i.ibb.co.com/VYLDnj5D/Frame-1.png",
     techStack: ["Flutter", "Cloud", "Docker"],
     title: "PHR Fasilkom UI",
     webLink: "https://phr-fasilkom.netlify.app/",
-    preview: ["https://i.ibb.co.com/LxSggZ2/Screenshot-2024-10-30-at-08-59-11.png",
-      "https://i.ibb.co.com/m4NmBFv/Screenshot-2024-10-30-at-08-59-22.png",
-      "https://i.ibb.co.com/kqqtm0h/Screenshot-2024-10-30-at-08-59-53.png",
-      "https://i.ibb.co.com/hZjv2ST/Screenshot-2024-10-30-at-09-00-02.png",
-      "https://i.ibb.co.com/sbTsbH3/Screenshot-2024-10-30-at-09-00-12.png",
-      "https://i.ibb.co.com/10vM8sH/Screenshot-2024-10-30-at-09-01-06.png",
-      "https://i.ibb.co.com/bdhG9Wq/Screenshot-2024-10-30-at-09-01-17.png",
-      "https://i.ibb.co.com/s2cwdmy/Screenshot-2024-10-30-at-09-02-02.png",
-      "https://i.ibb.co.com/fpbLj41/Screenshot-2024-10-30-at-09-02-12.png"]
+    preview: ["https://i.ibb.co.com/35sjKQBZ/Screenshot-2024-10-30-at-08-59-11.png",
+      "https://i.ibb.co.com/DHDDpC68/Screenshot-2024-10-30-at-08-59-22.png",
+      "https://i.ibb.co.com/PvPtbqzF/Screenshot-2024-10-30-at-08-59-53.png",
+      "https://i.ibb.co.com/6RkvLvHT/Screenshot-2024-10-30-at-09-00-02.png",
+      "https://i.ibb.co.com/pj0PjmLr/Screenshot-2024-10-30-at-09-00-12.png",
+      "https://i.ibb.co.com/Rk3WwzzR/Screenshot-2024-10-30-at-09-01-06.png",
+      "https://i.ibb.co.com/DgSjy0yf/Screenshot-2024-10-30-at-09-01-17.png",
+      "https://i.ibb.co.com/nG2N0xx/Screenshot-2024-10-30-at-09-02-02.png",
+      "https://i.ibb.co.com/WQGjqHP/Screenshot-2024-10-30-at-09-02-12.png"]
   },
   {
     title: "World Cancer Day - RSCM",
     details: "The World Cancer Day website raises awareness about cancer, focusing on education, early detection, and equitable treatment access. It includes campaigns, resources, and ways to engage in supporting cancer prevention and research.",
     techStack: ["Laravel", "PostgreSQL", "Vue.js"],
-    imgUrl: "https://i.ibb.co.com/sjRB6JS/icon.png",
-    preview: ["https://i.ibb.co.com/vY2KTMY/Screenshot-2024-10-29-at-18-51-39.png", "https://i.ibb.co.com/fqb8Sqd/Screenshot-2024-10-29-at-18-52-11.png"]
+    imgUrl: "https://i.ibb.co.com/93WctXdb/icon-wcd.png",
+    preview: ["https://i.ibb.co.com/Yqq2S61/Screenshot-2024-10-29-at-18-51-39.png",
+      "https://i.ibb.co.com/CsK6Fqz0/Screenshot-2024-10-29-at-18-52-11.png"]
   },
   {
     details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
@@ -96,21 +97,21 @@ export const LIST_PROJECTS: Project[] = [
   {
     title: "LawanCovid",
     details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
-    imgUrl: "https://i.ibb.co.com/7zMLcTM/lawancovid.png",
+    imgUrl: "https://i.ibb.co.com/tpyn4bXf/lawancovid.png",
     techStack: ["Flutter", "SpringBoot", "Firebase Firestore"],
     webLink: "http://bit.ly/VideoLawanCovid",
-    preview: ["https://i.ibb.co.com/sPMpfPX/Screenshot-2024-10-30-at-09-47-20.png",
-      "https://i.ibb.co.com/8N7LqsM/Screenshot-2024-10-30-at-09-47-02.png",
-      "https://i.ibb.co.com/8MhzHT5/Screenshot-2024-10-30-at-09-47-13.png",
-      "https://i.ibb.co.com/V9ZW8fG/Screenshot-2024-10-30-at-09-47-29.png",
-      "https://i.ibb.co.com/3FRYNK3/Screenshot-2024-10-30-at-09-47-38.png",
-      "https://i.ibb.co.com/7k8qN4H/Screenshot-2024-10-30-at-09-47-49.png",
-      "https://i.ibb.co.com/ZBKw6JW/Screenshot-2024-10-30-at-09-47-55.png",
-      "https://i.ibb.co.com/S52HC34/Screenshot-2024-10-30-at-09-48-03.png"]
+    preview: ["https://i.ibb.co.com/zwczzbH/Screenshot-2024-10-30-at-09-47-20.png",
+      "https://i.ibb.co.com/W4SWGLGZ/Screenshot-2024-10-30-at-09-47-02.png",
+      "https://i.ibb.co.com/Cpw1rMtr/Screenshot-2024-10-30-at-09-47-13.png",
+      "https://i.ibb.co.com/KjYr23nj/Screenshot-2024-10-30-at-09-47-29.png",
+      "https://i.ibb.co.com/mVWdcTrz/Screenshot-2024-10-30-at-09-47-38.png",
+      "https://i.ibb.co.com/S4RTbTxp/Screenshot-2024-10-30-at-09-47-49.png",
+      "https://i.ibb.co.com/b5QRx4fh/Screenshot-2024-10-30-at-09-47-55.png",
+      "https://i.ibb.co.com/FPDkNJf/Screenshot-2024-10-30-at-09-48-03.png"]
   },
   {
     details: "SusunJadwal is a web platform designed to help University of Indonesia students plan their course schedules each semester. With over 200,000 users, SusunJadwal is the top choice for students seeking a streamlined, collaborative course scheduling experience.",
-    imgUrl: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
+    imgUrl: "https://i.ibb.co.com/nSngMqQ/ristek.jpg",
     techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
     title: "Susun Jadwal UI",
     webLink: "https://susunjadwal.cs.ui.ac.id/",
@@ -118,14 +119,14 @@ export const LIST_PROJECTS: Project[] = [
   },
   {
     details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
-    imgUrl: "https://i.ibb.co.com/JrK1t9f/ulaskelas.png",
+    imgUrl: "https://i.ibb.co.com/PvffJHpc/ulaskelas.png",
     techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
     title: "UlasKelas - Ristek CS UI",
     playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en",
     preview: ["https://www.ristek.cs.ui.ac.id/_next/image?url=https%3A%2F%2Fd2becjj2vuzyyp.cloudfront.net%2F1710645527131_UlasKelas.webp&w=1080&q=75"]
   }, {
     details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
-    imgUrl: "https://i.ibb.co.com/2MpwZCC/brewfier.png",
+    imgUrl: "https://i.ibb.co.com/vvJy1w0m/brewfier.png",
     techStack: ["React Native", "Firebase Firestore", "NestJs"],
     title: "Bruwfier",
     playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
@@ -136,30 +137,31 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["Django", "AWS"],
     title: "SIPRO",
     webLink: "https://citius.co.id/",
-    preview: ["https://i.ibb.co.com/jWcdNdr/Screenshot-2024-10-29-at-18-45-49.png",
-      "https://i.ibb.co.com/HH46VFR/Screenshot-2024-10-29-at-18-46-08.png",
-      "https://i.ibb.co.com/C0pm0H6/Screenshot-2024-10-29-at-18-46-22.png",
-      "https://i.ibb.co.com/fH8fNbP/Screenshot-2024-10-29-at-18-46-33.png",
-      "https://i.ibb.co.com/mB2fdRm/Screenshot-2024-10-29-at-18-46-48.png"]
+    preview: ["https://i.ibb.co.com/LGXr3G0/Screenshot-2024-10-29-at-18-45-49.png",
+      "https://i.ibb.co.com/ch4mDnYK/Screenshot-2024-10-29-at-18-46-08.png",
+      "https://i.ibb.co.com/Fqx4GrFy/Screenshot-2024-10-29-at-18-46-22.png",
+      "https://i.ibb.co.com/C3qwBS8S/Screenshot-2024-10-29-at-18-46-33.png",
+      "https://i.ibb.co.com/7tXvrVpD/Screenshot-2024-10-29-at-18-46-48.png"]
   },
   {
     details: "CLICK is a mobile platform connecting consumers with various on-demand services, from catering and laundry to logistics and souvenirs. This project developed CLICK’s company profile, highlighting its features and mission to revolutionize on-demand services.",
-    imgUrl: "https://i.ibb.co.com/52jw75f/Logo-Yellow.png",
+    imgUrl: "https://i.ibb.co.com/Z6PLXHn8/Logo-Yellow.png",
     techStack: ["Laravel"],
     title: "CLICK",
-    preview: ["https://i.ibb.co.com/N17NCg5/Screenshot-2024-10-30-at-09-12-03.png", "https://i.ibb.co.com/vQkszKn/Screenshot-2024-10-30-at-09-12-15.png"]
+    preview: ["https://i.ibb.co.com/TDkJQwLq/Screenshot-2024-10-30-at-09-12-03.png",
+      "https://i.ibb.co.com/XZMT8WV1/Screenshot-2024-10-30-at-09-12-15.png"]
   },
   {
     details:
       "An internal website designed for managing POLANTAS (Indonesian Traffic Police) membership. The platform includes features for listing members, managing and updating membership status, generating organizational hierarchy charts, and additional functionalities. This tool aims to streamline the administration and oversight of POLANTAS members, enhancing operational efficiency.",
-    imgUrl: "https://i.ibb.co.com/7WyT6n6/police-2.png",
+    imgUrl: "https://i.ibb.co.com/7x35Gfyk/police-2.png",
     techStack: ["ReactJS", "Typescript"],
     title: "SIBINKAR Polantas",
     webLink: "- (internal only)",
   },
   {
     details: "Bionic Farm is a mobile app that optimizes the coffee supply chain for SMEs. It provides a digital platform for coffee producers, exporters, and processing businesses to manage operations remotely, simplify processes, and access new markets, enhancing competitiveness in the digital economy.",
-    imgUrl: 'https://i.ibb.co.com/pzzqTN9/icon.png',
+    imgUrl: 'https://i.ibb.co.com/hJLdNpNh/icon.png',
     techStack: ["Flutter", "Firebase Firestore"],
     title: "Bionic Farm - FT UI",
   }
@@ -185,7 +187,7 @@ export const LIST_WORK_ARI: Work[] = [
 export const LIST_WORK_ANGGA: Work[] = [
   {
     company: "OY! Indonesia",
-    icon: "https://i.ibb.co.com/DwHJHxN/oy.png",
+    icon: "https://i.ibb.co.com/ZpWdJYdZ/oy.png",
     position: "Software Engineer",
     workDuration: "August 2022 - Present",
     description: "Led critical performance optimizations including RabbitMQ operations (20% CPU reduction), settlement processes (27.31% latency improvement), and database operations (88.56% latency enhancement). Spearheaded major initiatives including PostgreSQL upgrade, Mastercard gateway integration, and implementation of advanced search optimization achieving 96.97% dashboard load time reduction. Developed key features for payment processing, reporting systems, and monitoring solutions while driving significant cost savings through infrastructure optimization.",
@@ -199,21 +201,21 @@ export const LIST_WORK_ANGGA: Work[] = [
   },
   {
     company: "RISTEK UI",
-    icon: "https://i.ibb.co.com/2yMcrGQ/ristek.jpg",
+    icon: "https://i.ibb.co.com/nSngMqQ/ristek.jpg",
     position: "Lead Mobile Developer",
     workDuration: "March 2021 - March 2022",
     description: "Led weekly Flutter lectures as a mentor, headed the Backend Team for the Mobdev final project, and coordinated multiple projects valued at approximately 100 million rupiahs. Focused on mobile development education and project management.",
   },
   {
     company: "Sayurbox",
-    icon: "https://i.ibb.co.com/yFpvWdP/sayurbox.jpg",
+    icon: "https://i.ibb.co.com/pjRTztyB/sayurbox.jpg",
     position: "Software Engineer, Intern",
     workDuration: "June 2021 - September 2021",
     description: "Enhanced payment integrations with OVO and Oy, implemented security measures for payment callbacks, and set up monitoring systems with Kibana and Grafana. Developed endpoints using Spring Boot and managed deployments through Jenkins while ensuring proper testing coverage.",
   },
   {
     company: "Pinhome",
-    icon: "https://i.ibb.co.com/N7gZNht/pinhome.png",
+    icon: "https://i.ibb.co.com/67dLSJ6z/pinhome.png",
     position: "Software Engineer, Intern",
     workDuration: "December 2020 - May 2021",
     description: "Developed UI for service provider mobile app serving over 1,600 users, improved customer order allocation by 87%, and created internal data interaction tools. Won 1st place in Internal Pinhome Hackathon (Pinhackathon).",
