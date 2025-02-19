@@ -11,8 +11,13 @@ interface Props {
 const ProjectItem = ({ project }: Props) => {
   return (
     <div className="flex gap-8 items-center">
-      <div className="min-w-44 w-60">
-        <img src={project.imgUrl} alt={`Project-${project.title}`} />
+      {/* Image container with fixed dimensions */}
+      <div className="w-[200px] h-[150px] flex-shrink-0 flex items-center justify-center">
+        <img
+          src={project.imgUrl}
+          alt={`Project-${project.title}`}
+          className="object-cover"
+        />
       </div>
       <div className="flex flex-col gap-2">
         <h6 className="text-xl font-semibold">{project.title}</h6>
@@ -49,8 +54,8 @@ const ProjectItem = ({ project }: Props) => {
         <p className="text-sm mt-2">{project.details}</p>
 
         <div className="flex gap-4 mt-2">
-          { project.preview && (
-            <ImageGalleryModal images={project.preview}/>
+          {project.preview && (
+            <ImageGalleryModal images={project.preview} />
           )}
 
           {project.techStack.map((tech) => (
