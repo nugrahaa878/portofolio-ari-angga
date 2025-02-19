@@ -28,12 +28,16 @@ const ImageGalleryModal = ({ images }: Props) => {
 
   const handleNext = () => {
     const nextIndex = currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1;
+    if (currentImageIndex == nextIndex) return;
+    
     setIsLoading(true);
     setNextImageIndex(nextIndex);
   };
 
   const handlePrevious = () => {
     const prevIndex = currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1;
+    if (currentImageIndex == prevIndex) return;
+
     setIsLoading(true);
     setNextImageIndex(prevIndex);
   };
