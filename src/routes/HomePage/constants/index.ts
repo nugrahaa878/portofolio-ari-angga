@@ -133,7 +133,7 @@ export const LIST_PROJECTS: Project[] = [
   },
   {
     details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
-    imgUrl: "https://citius.co.id/img/logo.png",
+    imgUrl: "https://i.ibb.co.com/H6JJD8w/logo-citius.webp",
     techStack: ["Django", "AWS"],
     title: "SIPRO",
     webLink: "https://citius.co.id/",
