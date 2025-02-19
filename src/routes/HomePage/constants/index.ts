@@ -88,13 +88,6 @@ export const LIST_PROJECTS: Project[] = [
       "https://i.ibb.co.com/CsK6Fqz0/Screenshot-2024-10-29-at-18-52-11.png"]
   },
   {
-    details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
-    imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
-    techStack: ["YII"],
-    title: "Borang Pori - RSCM",
-    webLink: "https://www.pori.or.id/"
-  },
-  {
     title: "LawanCovid",
     details: "LawanCovid is a mobile app with features to support users during the COVID-19 pandemic, including a Convalescent Plasma Portal, Health Articles, a COVID-19 Assessment Calendar, and area statistics for Indonesia.",
     imgUrl: "https://i.ibb.co.com/tpyn4bXf/lawancovid.png",
@@ -115,7 +108,7 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["React.js", "Flask", "MongoDB", "AWS", "SSO UI"],
     title: "Susun Jadwal UI",
     webLink: "https://susunjadwal.cs.ui.ac.id/",
-    preview: ["https://www.ristek.cs.ui.ac.id/_next/image?url=https%3A%2F%2Fd2becjj2vuzyyp.cloudfront.net%2F1710615233855_sunjad.webp&w=1080&q=75"]
+    preview: ["https://i.ibb.co.com/KpGpgMcv/susun-jadwal.png"]
   },
   {
     details: "UlasKelas is a mobile app that provides students with detailed course reviews at Fasilkom UI, helping them make informed course selections. With easy SSO login, students can access insights on course content, credits, and prerequisites, eliminating the guesswork in course selection.",
@@ -123,13 +116,14 @@ export const LIST_PROJECTS: Project[] = [
     techStack: ["Flutter", "SSO UI", "Flask", "MongoDB", "AWS"],
     title: "UlasKelas - Ristek CS UI",
     playStore: "https://play.google.com/store/apps/details?id=com.ristek.ulaskelas&hl=en",
-    preview: ["https://www.ristek.cs.ui.ac.id/_next/image?url=https%3A%2F%2Fd2becjj2vuzyyp.cloudfront.net%2F1710645527131_UlasKelas.webp&w=1080&q=75"]
+    preview: ["https://i.ibb.co.com/60c8HMgF/ulas-kelas.png"]
   }, {
     details: "Bruwfier is the ultimate app for home coffee brewers, offering features for tracking brewing activities, favorite recipes, and seller engagement. The app also includes a CMS for administrators to manage backend data efficiently, enhancing the user experience for coffee enthusiasts.",
     imgUrl: "https://i.ibb.co.com/vvJy1w0m/brewfier.png",
     techStack: ["React Native", "Firebase Firestore", "NestJs"],
     title: "Bruwfier",
-    playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id"
+    playStore: "https://play.google.com/store/apps/details?id=com.bruwfier&hl=id",
+    preview: ["https://i.ibb.co.com/JRr2XLNm/bruwfier.png"]
   },
   {
     details: "SIPRO is a comprehensive procurement information system tailored for Citius. It integrates all parties involved in procurement and provides real-time data management, covering subcontractor data, purchase requests, purchase orders, invoices, payments, and approvals. SIPRO streamlines the procurement process, supporting Citius' core operations with efficiency and integration.",
@@ -164,7 +158,15 @@ export const LIST_PROJECTS: Project[] = [
     imgUrl: 'https://i.ibb.co.com/hJLdNpNh/icon.png',
     techStack: ["Flutter", "Firebase Firestore"],
     title: "Bionic Farm - FT UI",
-  }
+  },
+  {
+    details: "PORI is a digital platform developed for the Radiology Department at RSCM, created for the Perhimpunan Dokter Spesialis Onkologi Radiasi Indonesia. PORI offers tools for equipment management, brachytherapy, staff management, patient profiles, and statistics, supporting oncology professionals in advancing their field.",
+    imgUrl: "https://www.pori.or.id/wp-content/uploads/2023/01/pori-logo-small-bg-3.png",
+    techStack: ["YII"],
+    title: "Borang Pori - RSCM",
+    webLink: "https://www.pori.or.id/",
+    preview: ["https://i.ibb.co.com/KpGpgMcv/susun-jadwal.png"]
+  },
 ];
 
 export const LIST_WORK_ARI: Work[] = [
