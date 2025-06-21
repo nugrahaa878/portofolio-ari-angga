@@ -1,87 +1,67 @@
-import briefCase from '../../../../assets/briefcase.png';
-import Tag from '../../../../components/Tag';
-import { LIST_WORK_ANGGA, LIST_WORK_ARI } from '../../constants';
-import linkedin from "../../../../assets/linkedin.png";
-import github from "../../../../assets/github.png";
-import medium from "../../../../assets/medium.png";
+import { Activity } from 'lucide-react';
+import { LIST_WORK, TEAM_INFO } from '../../constants';
 
 const ExperienceSectionMobile = () => {
 	return (
-		<div className="mb-40 pt-14" id="experiences">
-			<div className="flex gap-6 items-center px-10 mb-10">
-				<h4 className="text-2xl font-semibold">Work Experiences</h4>
-				<div className="h-0.5 bg-gray-900 w-64 rounded-sm" />
+		<div className="mb-40 pt-14 px-6" id="experiences">
+			<div className="flex gap-6 items-center mb-10">
+				<h4 className="text-2xl font-semibold text-healthcareGray-900">Our Experience</h4>
+				<div className="h-0.5 bg-healthcareBlue-600 w-32 rounded-sm" />
 			</div>
 
-			<div className="flex flex-col justify-between gap-10 px-6">
-				<div className="flex w-full border px-8 py-6 rounded-xl flex-col">
-					<div className='flex items-center gap-5 mb-10'>
-						<img src={briefCase} alt='work-1' className='w-7 h-auto' />
-						<p className="font-bold text-xl text-gray-800">Ari's Work</p>
-					</div>
-
-					{LIST_WORK_ARI.map((work) => (
-						<div className="flex gap-4 mb-8">
-							<img src={work.icon} className="max-h-8 w-auto mt-2 rounded-sm" />
-
-							<div>
-								<p className="font-semibold">{work.company}</p>
-								<p className="italic text-xs mb-2">{work.position}, {work.workDuration}</p>
-								<p className="text-sm">
-									{work.description}
-								</p>
-							</div>
+			<div className="space-y-8">
+				{/* Company Info */}
+				<div className="bg-white border-2 border-healthcareGray-100 rounded-xl p-6">
+					<div className='flex items-center gap-4 mb-6'>
+						<div className="w-10 h-10 bg-gradient-to-br from-healthcareBlue-600 to-healthcareTeal-600 rounded-lg flex items-center justify-center">
+							<Activity className="w-6 h-6 text-white" />
 						</div>
-					))}
-
-					<div className='w-fit self-center mt-3'>
-						<Tag text='Resume' onClick={() => window.open('https://drive.google.com/file/d/19uxkHiwbusjfcXJANYVxX0KLdGCKp1iY/view?usp=sharing', '_blank')} />
+						<div>
+							<p className="font-bold text-xl text-healthcareGray-900">{TEAM_INFO.companyName}</p>
+							<p className="text-sm text-healthcareGray-600">{TEAM_INFO.tagline}</p>
+						</div>
 					</div>
-					<div className="w-fit self-center mt-3 flex gap-4">
-						<a href="https://www.linkedin.com/in/nugrahaa878/" target="_blank">
-							<img src={linkedin} width={40} alt="linkedin" />
-						</a>
-						<a href="https://github.com/nugrahaa878" target="_blank">
-							<img src={github} width={40} alt="github" />
-						</a>
-						<a href="https://medium.com/@nugrahaa878" target="_blank">
-							<img src={medium} width={40} alt="medium" />
-						</a>
+
+					<p className="text-healthcareGray-700 mb-6">{TEAM_INFO.description}</p>
+
+					<div className="grid grid-cols-2 gap-4 mb-6">
+						<div className="text-center p-4 bg-healthcareBlue-50 rounded-lg">
+							<div className="text-2xl font-bold text-healthcareBlue-600">{TEAM_INFO.experience}</div>
+							<div className="text-xs text-healthcareGray-600">Experience</div>
+						</div>
+						<div className="text-center p-4 bg-healthcareTeal-50 rounded-lg">
+							<div className="text-2xl font-bold text-healthcareTeal-600">50+</div>
+							<div className="text-xs text-healthcareGray-600">Healthcare Projects</div>
+						</div>
 					</div>
 				</div>
-				<div className="flex w-full border px-8 py-6 rounded-xl flex-col">
-					<div className='flex items-center gap-5 mb-10'>
-						<img src={briefCase} alt='work-1' className='w-7 h-auto' />
-						<p className="font-bold text-xl text-gray-800">Angga's Work</p>
-					</div>
 
-					{LIST_WORK_ANGGA.map((work) => (
-						<div className="flex gap-4 mb-8">
-							<img src={work.icon} className="max-h-8 w-auto mt-2 rounded-sm" />
+				{/* Work Experience */}
+				<div className="bg-white border-2 border-healthcareGray-100 rounded-xl p-6">
+					<h5 className="font-bold text-lg text-healthcareGray-900 mb-6">Professional Experience</h5>
 
-							<div>
-								<p className="font-semibold">{work.company}</p>
-								<p className="italic text-xs mb-2">{work.position}, {work.workDuration}</p>
-								<p className="text-sm">
-									{work.description}
-								</p>
+					<div className="space-y-6">
+						{LIST_WORK.map((work, index) => (
+							<div key={index} className="flex gap-4 pb-6 border-b border-healthcareGray-100 last:border-b-0">
+								<img src={work.icon} className="w-12 h-12 mt-1 rounded-lg object-contain" alt={work.company} />
+
+								<div className="flex-1">
+									<p className="font-semibold text-healthcareGray-900">{work.company}</p>
+									<p className="text-healthcareBlue-600 text-sm mb-2">{work.position}</p>
+									<p className="text-xs text-healthcareGray-500 mb-3">{work.workDuration}</p>
+									<p className="text-sm text-healthcareGray-700 leading-relaxed">
+										{work.description}
+									</p>
+								</div>
 							</div>
-						</div>
-					))}
-
-					<div className='w-fit self-center mt-3'>
-						<Tag text='Resume' onClick={() => window.open('https://drive.google.com/file/d/1kDf5LTZKpQVjRCz8UzcZjWYpQtw_8sGH/view', '_blank')} />
+						))}
 					</div>
-					<div className="w-fit self-center mt-3 flex gap-4">
-						<a href="https://www.linkedin.com/in/muherlangga/" target="_blank">
-							<img src={linkedin} width={40} alt="linkedin" />
-						</a>
-						<a href="https://github.com/angga1518" target="_blank">
-							<img src={github} width={40} alt="github" />
-						</a>
-						<a href="https://medium.com/@erlanggamuhammad01" target="_blank">
-							<img src={medium} width={40} alt="medium" />
-						</a>
+
+					{/* Contact CTA */}
+					<div className="mt-8 text-center">
+						<button className="w-full bg-healthcareBlue-600 hover:bg-healthcareBlue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors duration-200">
+							Schedule Consultation
+						</button>
 					</div>
 				</div>
 			</div>

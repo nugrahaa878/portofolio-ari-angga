@@ -52,7 +52,40 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+        // Healthcare Color Palette
+        healthcareBlue: {
+          50: '#E3F2FD',
+          100: '#BBDEFB',
+          500: '#1565C0',
+          600: '#1976D2',
+          700: '#1565C0',
+          900: '#0D47A1'
+        },
+        healthcareTeal: {
+          50: '#E0F2F1',
+          100: '#B2DFDB',
+          500: '#00897B',
+          600: '#00ACC1',
+          700: '#0097A7'
+        },
+        healthcareGreen: {
+          50: '#E8F5E8',
+          500: '#4CAF50',
+          600: '#43A047'
+        },
+        healthcareGray: {
+          50: '#FAFAFA',
+          100: '#F5F5F5',
+          200: '#EEEEEE',
+          300: '#E0E0E0',
+          400: '#BDBDBD',
+          500: '#9E9E9E',
+          600: '#757575',
+          700: '#616161',
+          800: '#424242',
+          900: '#212121'
+        }
   		}
   	}
   },

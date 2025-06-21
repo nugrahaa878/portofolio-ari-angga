@@ -1,47 +1,128 @@
-import Button from "../Button";
+import { Activity, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: "smooth" });
+    setIsMenuOpen(false);
+  };
 
   return (
-    <div className="flex justify-between w-full pt-10 pr-24 align-middle">
-      <div></div>
-      <div className="flex gap-16 items-center">
-        <button
-          onClick={() => {
-            const element = document.getElementById("projects");
-            element?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          <h3>Projects</h3>
-        </button>
-        <button
-          onClick={() => {
-            const element = document.getElementById("experiences");
-            element?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          <h3>Experiences</h3>
-        </button>
-        <button
-          onClick={() => {
-            const element = document.getElementById("articles");
-            element?.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          <h3>Article</h3>
-        </button>
-        {/* <a href="/#">
-          <h3>Contact</h3>
-        </a> */}
-        <Button
-          handleClick={() => {
-            const element = document.getElementById("experiences");
-            element?.scrollIntoView({ behavior: "smooth" });
-          }}
-          text="Resume"
-        />
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-healthcareGray-200">
+      <div className="container mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          {/* Logo */}
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 bg-gradient-to-br from-healthcareBlue-600 to-healthcareTeal-600 rounded-lg flex items-center justify-center">
+              <Activity className="w-6 h-6 text-white" />
+            </div>
+            <div>
+              <div className="text-xl font-bold text-healthcareGray-900">HealthTech</div>
+              <div className="text-xs text-healthcareGray-600">Solutions</div>
+            </div>
+          </div>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <button
+              onClick={() => scrollToSection("services")}
+              className="text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium transition-colors duration-200"
+            >
+              Services
+            </button>
+            <button
+              onClick={() => scrollToSection("expertise")}
+              className="text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium transition-colors duration-200"
+            >
+              Expertise
+            </button>
+            <button
+              onClick={() => scrollToSection("case-studies")}
+              className="text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium transition-colors duration-200"
+            >
+              Case Studies
+            </button>
+            <button
+              onClick={() => scrollToSection("team")}
+              className="text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium transition-colors duration-200"
+            >
+              About
+            </button>
+          </div>
+
+          {/* CTA Buttons */}
+          <div className="hidden md:flex items-center space-x-4">
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-healthcareBlue-600 hover:text-healthcareBlue-700 font-medium transition-colors duration-200"
+            >
+              Contact
+            </button>
+            <button className="bg-healthcareBlue-600 hover:bg-healthcareBlue-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors duration-200">
+              Get Quote
+            </button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden p-2 rounded-lg hover:bg-healthcareGray-100 transition-colors duration-200"
+          >
+            {isMenuOpen ? (
+              <X className="w-6 h-6 text-healthcareGray-700" />
+            ) : (
+              <Menu className="w-6 h-6 text-healthcareGray-700" />
+            )}
+          </button>
+        </div>
+
+        {/* Mobile Menu */}
+        {isMenuOpen && (
+          <div className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-healthcareGray-200 shadow-lg">
+            <div className="px-6 py-4 space-y-4">
+              <button
+                onClick={() => scrollToSection("services")}
+                className="block w-full text-left text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium py-2 transition-colors duration-200"
+              >
+                Services
+              </button>
+              <button
+                onClick={() => scrollToSection("expertise")}
+                className="block w-full text-left text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium py-2 transition-colors duration-200"
+              >
+                Expertise
+              </button>
+              <button
+                onClick={() => scrollToSection("case-studies")}
+                className="block w-full text-left text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium py-2 transition-colors duration-200"
+              >
+                Case Studies
+              </button>
+              <button
+                onClick={() => scrollToSection("team")}
+                className="block w-full text-left text-healthcareGray-700 hover:text-healthcareBlue-600 font-medium py-2 transition-colors duration-200"
+              >
+                About
+              </button>
+              <div className="pt-4 border-t border-healthcareGray-200 space-y-2">
+                <button
+                  onClick={() => scrollToSection("contact")}
+                  className="block w-full text-left text-healthcareBlue-600 hover:text-healthcareBlue-700 font-medium py-2 transition-colors duration-200"
+                >
+                  Contact
+                </button>
+                <button className="w-full bg-healthcareBlue-600 hover:bg-healthcareBlue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200">
+                  Get Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
-    </div>
+    </nav>
   );
 };
 
