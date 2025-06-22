@@ -1,4 +1,4 @@
-import { ArrowRight, Shield, Activity, Users, Code2, Heart, Zap, CheckCircle } from "lucide-react";
+import { ArrowRight, Shield, Users, Code2, Zap, CheckCircle, Laptop, Server, Smartphone } from "lucide-react";
 import iconMain from "../../../../assets/icon-main.png";
 
 // Import client logos
@@ -8,88 +8,88 @@ import client3 from "../../../../assets/clients/synergy-client-3.png";
 import client4 from "../../../../assets/clients/synergy-client-4.svg";
 
 const HeroSection = () => {
-  // Client data with actual logos
+  // Client data with actual logos - now generic companies
   const clients = [
-    { logo: client1, name: "RS Cipto Mangunkusumo", type: "hospital" },
-    { logo: client2, name: "RS Sardjito", type: "hospital" },
-    { logo: client3, name: "FK UI", type: "university" },
-    { logo: client4, name: "FK UGM", type: "university" },
-    { logo: client1, name: "RS Fatmawati", type: "hospital" },
-    { logo: client2, name: "RS Persahabatan", type: "hospital" },
-    { logo: client3, name: "FK Unpad", type: "university" },
-    { logo: client4, name: "RS Hasan Sadikin", type: "hospital" },
+    { logo: client1, name: "TechCorp Solutions", type: "enterprise" },
+    { logo: client2, name: "Digital Dynamics", type: "startup" },
+    { logo: client3, name: "InnovateLab", type: "research" },
+    { logo: client4, name: "NextGen Systems", type: "enterprise" },
+    { logo: client1, name: "CloudFirst Inc", type: "enterprise" },
+    { logo: client2, name: "DataFlow Technologies", type: "startup" },
+    { logo: client3, name: "SmartSolutions", type: "research" },
+    { logo: client4, name: "FutureTech Ventures", type: "enterprise" },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-synergyBlue-50 via-white to-synergyPurple-50 py-10">
+    <div className="min-h-screen bg-gradient-to-br from-synergyBlue-50 via-white to-synergyIndigo-50 py-10">
       {/* Main Hero Content */}
       <div className="container mx-auto px-6 pt-20 pb-16">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Content */}
           <div className="space-y-8">
             {/* Company Badge */}
-            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-synergyTeal-50 to-synergyBlue-50 border border-synergyTeal-200 rounded-full text-synergyTeal-700 text-sm font-semibold shadow-sm">
+            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-synergyEmerald-50 to-synergyBlue-50 border border-synergyEmerald-200 rounded-full text-synergyEmerald-700 text-sm font-semibold shadow-sm">
               <Shield className="w-4 h-4 mr-2" />
-              HIPAA Compliant • HL7 FHIR • Enterprise Ready
+              Secure • Scalable • Enterprise Ready
             </div>
 
             {/* Main Heading */}
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-7xl font-bold text-synergyGray-900 leading-tight">
-                <span className="text-synergyBlue-600">Healthcare</span>
+              <h1 className="text-5xl lg:text-7xl font-bold text-synergySlate-900 leading-tight">
+                <span className="text-synergyBlue-600">Software</span>
                 <br />
-                <span className="bg-gradient-to-r from-synergyPurple-600 to-synergyTeal-600 bg-clip-text text-transparent">
-                  Technology
+                <span className="bg-gradient-to-r from-synergyIndigo-600 to-synergyEmerald-600 bg-clip-text text-transparent">
+                  Development
                 </span>
                 <br />
-                <span className="text-synergyGray-900">Reimagined</span>
+                <span className="text-synergySlate-900">Excellence</span>
               </h1>
-              <h2 className="text-xl lg:text-2xl text-synergyGray-600 leading-relaxed max-w-2xl">
-                Synergy Bytes menghadirkan solusi teknologi kesehatan yang
+              <h2 className="text-xl lg:text-2xl text-synergySlate-600 leading-relaxed max-w-2xl">
+                Synergy Bytes menghadirkan solusi teknologi yang
                 <span className="font-semibold text-synergyBlue-600"> inovatif</span>,
-                <span className="font-semibold text-synergyPurple-600"> aman</span>, dan
-                <span className="font-semibold text-synergyTeal-600"> skalabel</span> untuk transformasi digital rumah sakit dan klinik.
+                <span className="font-semibold text-synergyIndigo-600"> handal</span>, dan
+                <span className="font-semibold text-synergyEmerald-600"> skalabel</span> untuk transformasi digital bisnis Anda.
               </h2>
             </div>
 
             {/* Value Propositions */}
             <div className="grid md:grid-cols-3 gap-4">
-              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergyGray-200">
+              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergySlate-200">
                 <div className="w-10 h-10 bg-synergyBlue-100 rounded-lg flex items-center justify-center">
-                  <Activity className="w-5 h-5 text-synergyBlue-600" />
+                  <Code2 className="w-5 h-5 text-synergyBlue-600" />
                 </div>
                 <div>
-                  <div className="font-bold text-synergyGray-900">50+</div>
-                  <div className="text-sm text-synergyGray-600">Healthcare Projects</div>
+                  <div className="font-bold text-synergySlate-900">100+</div>
+                  <div className="text-sm text-synergySlate-600">Projects Delivered</div>
                 </div>
               </div>
-              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergyGray-200">
-                <div className="w-10 h-10 bg-synergyPurple-100 rounded-lg flex items-center justify-center">
-                  <Users className="w-5 h-5 text-synergyPurple-600" />
+              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergySlate-200">
+                <div className="w-10 h-10 bg-synergyIndigo-100 rounded-lg flex items-center justify-center">
+                  <Users className="w-5 h-5 text-synergyIndigo-600" />
                 </div>
                 <div>
-                  <div className="font-bold text-synergyGray-900">25+</div>
-                  <div className="text-sm text-synergyGray-600">Healthcare Clients</div>
+                  <div className="font-bold text-synergySlate-900">50+</div>
+                  <div className="text-sm text-synergySlate-600">Happy Clients</div>
                 </div>
               </div>
-              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergyGray-200">
-                <div className="w-10 h-10 bg-synergyTeal-100 rounded-lg flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-synergyTeal-600" />
+              <div className="flex items-center space-x-3 p-4 bg-white/60 backdrop-blur rounded-xl border border-synergySlate-200">
+                <div className="w-10 h-10 bg-synergyEmerald-100 rounded-lg flex items-center justify-center">
+                  <Zap className="w-5 h-5 text-synergyEmerald-600" />
                 </div>
                 <div>
-                  <div className="font-bold text-synergyGray-900">99.9%</div>
-                  <div className="text-sm text-synergyGray-600">Uptime SLA</div>
+                  <div className="font-bold text-synergySlate-900">99.9%</div>
+                  <div className="text-sm text-synergySlate-600">Uptime SLA</div>
                 </div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-synergyBlue-600 to-synergyPurple-600 hover:from-synergyBlue-700 hover:to-synergyPurple-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center group shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <button className="bg-gradient-to-r from-synergyBlue-600 to-synergyIndigo-600 hover:from-synergyBlue-700 hover:to-synergyIndigo-700 text-white px-8 py-4 rounded-xl font-semibold transition-all duration-300 flex items-center justify-center group shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 Mulai Konsultasi Gratis
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
-              <button className="border-2 border-synergyGray-300 hover:border-synergyTeal-500 text-synergyGray-700 hover:text-synergyTeal-600 px-8 py-4 rounded-xl font-semibold transition-all duration-300 bg-white/80 backdrop-blur hover:bg-white">
+              <button className="border-2 border-synergySlate-300 hover:border-synergyEmerald-500 text-synergySlate-700 hover:text-synergyEmerald-600 px-8 py-4 rounded-xl font-semibold transition-all duration-300 bg-white/80 backdrop-blur hover:bg-white">
                 Lihat Portfolio
               </button>
             </div>
@@ -97,16 +97,16 @@ const HeroSection = () => {
             {/* Trust Indicators */}
             <div className="flex flex-wrap items-center gap-6 pt-4">
               <div className="flex items-center space-x-2">
-                <CheckCircle className="w-5 h-5 text-synergyTeal-500" />
-                <span className="text-sm text-synergyGray-600 font-medium">HIPAA Compliant</span>
+                <CheckCircle className="w-5 h-5 text-synergyEmerald-500" />
+                <span className="text-sm text-synergySlate-600 font-medium">ISO 27001 Certified</span>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckCircle className="w-5 h-5 text-synergyTeal-500" />
-                <span className="text-sm text-synergyGray-600 font-medium">ISO 27001 Ready</span>
+                <CheckCircle className="w-5 h-5 text-synergyEmerald-500" />
+                <span className="text-sm text-synergySlate-600 font-medium">Agile Development</span>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckCircle className="w-5 h-5 text-synergyTeal-500" />
-                <span className="text-sm text-synergyGray-600 font-medium">24/7 Support</span>
+                <CheckCircle className="w-5 h-5 text-synergyEmerald-500" />
+                <span className="text-sm text-synergySlate-600 font-medium">24/7 Support</span>
               </div>
             </div>
           </div>
@@ -114,19 +114,19 @@ const HeroSection = () => {
           {/* Right Column - Interactive Visual */}
           <div className="relative">
             {/* Main Card */}
-            <div className="relative z-10 bg-white rounded-3xl shadow-2xl p-8 border border-synergyGray-200">
+            <div className="relative z-10 bg-white rounded-3xl shadow-2xl p-8 border border-synergySlate-200">
               {/* Header */}
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center space-x-3">
                   <img src={iconMain} alt="Synergy Bytes" className="w-8 h-8" />
                   <div>
-                    <h3 className="text-lg font-bold text-synergyGray-900">Healthcare Dashboard</h3>
-                    <p className="text-sm text-synergyGray-500">Real-time Analytics</p>
+                    <h3 className="text-lg font-bold text-synergySlate-900">Development Dashboard</h3>
+                    <p className="text-sm text-synergySlate-500">Real-time Analytics</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 bg-synergyTeal-500 rounded-full animate-pulse"></div>
-                  <span className="text-xs text-synergyGray-600 font-medium">Live</span>
+                  <div className="w-3 h-3 bg-synergyEmerald-500 rounded-full animate-pulse"></div>
+                  <span className="text-xs text-synergySlate-600 font-medium">Live</span>
                 </div>
               </div>
 
@@ -134,34 +134,34 @@ const HeroSection = () => {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-gradient-to-br from-synergyBlue-50 to-synergyBlue-100 p-4 rounded-xl">
                   <div className="flex items-center justify-between mb-2">
-                    <Activity className="w-6 h-6 text-synergyBlue-600" />
-                    <span className="text-xs bg-synergyBlue-600 text-white px-2 py-1 rounded-full">+12%</span>
+                    <Laptop className="w-6 h-6 text-synergyBlue-600" />
+                    <span className="text-xs bg-synergyBlue-600 text-white px-2 py-1 rounded-full">+15%</span>
                   </div>
-                  <div className="text-2xl font-bold text-synergyBlue-700">1,247</div>
-                  <div className="text-xs text-synergyBlue-600">Active Patients</div>
+                  <div className="text-2xl font-bold text-synergyBlue-700">24</div>
+                  <div className="text-xs text-synergyBlue-600">Active Projects</div>
                 </div>
-                <div className="bg-gradient-to-br from-synergyPurple-50 to-synergyPurple-100 p-4 rounded-xl">
+                <div className="bg-gradient-to-br from-synergyIndigo-50 to-synergyIndigo-100 p-4 rounded-xl">
                   <div className="flex items-center justify-between mb-2">
-                    <Users className="w-6 h-6 text-synergyPurple-600" />
-                    <span className="text-xs bg-synergyPurple-600 text-white px-2 py-1 rounded-full">+8%</span>
+                    <Server className="w-6 h-6 text-synergyIndigo-600" />
+                    <span className="text-xs bg-synergyIndigo-600 text-white px-2 py-1 rounded-full">+8%</span>
                   </div>
-                  <div className="text-2xl font-bold text-synergyPurple-700">89</div>
-                  <div className="text-xs text-synergyPurple-600">Medical Staff</div>
+                  <div className="text-2xl font-bold text-synergyIndigo-700">12</div>
+                  <div className="text-xs text-synergyIndigo-600">Servers Running</div>
                 </div>
               </div>
 
               {/* Chart Visualization */}
-              <div className="bg-gradient-to-r from-synergyBlue-50 via-synergyPurple-50 to-synergyTeal-50 rounded-xl p-6 mb-6">
+              <div className="bg-gradient-to-r from-synergyBlue-50 via-synergyIndigo-50 to-synergyEmerald-50 rounded-xl p-6 mb-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h4 className="font-semibold text-synergyGray-900">Patient Flow</h4>
-                  <Zap className="w-5 h-5 text-synergyTeal-600" />
+                  <h4 className="font-semibold text-synergySlate-900">Performance Metrics</h4>
+                  <Zap className="w-5 h-5 text-synergyEmerald-600" />
                 </div>
                 {/* Animated Chart Bars */}
                 <div className="flex items-end space-x-2 h-24">
-                  {[65, 45, 78, 52, 89, 67, 91].map((height, index) => (
+                  {[85, 65, 92, 78, 95, 82, 88].map((height, index) => (
                     <div
                       key={index}
-                      className="flex-1 bg-gradient-to-t from-synergyBlue-400 to-synergyPurple-400 rounded-t-lg transition-all duration-1000 ease-out"
+                      className="flex-1 bg-gradient-to-t from-synergyBlue-400 to-synergyIndigo-400 rounded-t-lg transition-all duration-1000 ease-out"
                       style={{
                         height: `${height}%`,
                         animationDelay: `${index * 0.1}s`
@@ -176,7 +176,7 @@ const HeroSection = () => {
                 <button className="flex-1 bg-synergyBlue-600 hover:bg-synergyBlue-700 text-white py-2 px-4 rounded-lg text-sm font-medium transition-colors duration-200">
                   View Reports
                 </button>
-                <button className="flex-1 border border-synergyGray-300 hover:border-synergyTeal-500 text-synergyGray-700 hover:text-synergyTeal-600 py-2 px-4 rounded-lg text-sm font-medium transition-colors duration-200">
+                <button className="flex-1 border border-synergySlate-300 hover:border-synergyEmerald-500 text-synergySlate-700 hover:text-synergyEmerald-600 py-2 px-4 rounded-lg text-sm font-medium transition-colors duration-200">
                   Settings
                 </button>
               </div>
@@ -184,28 +184,28 @@ const HeroSection = () => {
 
             {/* Background Decorations */}
             <div className="absolute inset-0 -z-10">
-              <div className="absolute top-8 right-8 w-32 h-32 bg-gradient-to-br from-synergyTeal-200 to-synergyBlue-200 rounded-full opacity-60 animate-pulse"></div>
-              <div className="absolute bottom-8 left-8 w-24 h-24 bg-gradient-to-br from-synergyPurple-200 to-synergyTeal-200 rounded-full opacity-40 animate-pulse" style={{ animationDelay: '1s' }}></div>
-              <div className="absolute top-1/2 right-0 w-16 h-16 bg-gradient-to-br from-synergyBlue-200 to-synergyPurple-200 rounded-full opacity-50 animate-pulse" style={{ animationDelay: '2s' }}></div>
+              <div className="absolute top-8 right-8 w-32 h-32 bg-gradient-to-br from-synergyEmerald-200 to-synergyBlue-200 rounded-full opacity-60 animate-pulse"></div>
+              <div className="absolute bottom-8 left-8 w-24 h-24 bg-gradient-to-br from-synergyIndigo-200 to-synergyEmerald-200 rounded-full opacity-40 animate-pulse" style={{ animationDelay: '1s' }}></div>
+              <div className="absolute top-1/2 right-0 w-16 h-16 bg-gradient-to-br from-synergyBlue-200 to-synergyIndigo-200 rounded-full opacity-50 animate-pulse" style={{ animationDelay: '2s' }}></div>
             </div>
 
             {/* Floating Elements */}
-            <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-3 border border-synergyGray-200 animate-bounce z-10" style={{ animationDuration: '3s' }}>
+            <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-3 border border-synergySlate-200 animate-bounce z-10" style={{ animationDuration: '3s' }}>
               <Code2 className="w-6 h-6 text-synergyBlue-600" />
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border border-synergyGray-200 animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
-              <Heart className="w-6 h-6 text-synergyTeal-600" />
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border border-synergySlate-200 animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
+              <Smartphone className="w-6 h-6 text-synergyEmerald-600" />
             </div>
           </div>
         </div>
       </div>
 
       {/* Bottom Trust Bar */}
-      <div className="border-t border-synergyGray-200 bg-white/70 backdrop-blur-sm overflow-hidden">
+      <div className="border-t border-synergySlate-200 bg-white/70 backdrop-blur-sm overflow-hidden">
         <div className="container mx-auto px-6 py-16">
           <div className="text-center space-y-10">
-            <p className="text-lg text-synergyGray-600 font-bold uppercase tracking-wider">
-              Dipercaya oleh 25+ Institusi Kesehatan Terkemuka di Indonesia
+            <p className="text-lg text-synergySlate-600 font-bold uppercase tracking-wider">
+              Dipercaya oleh 50+ Perusahaan Terkemuka di Indonesia
             </p>
 
             {/* Auto-scrolling logos container */}
@@ -222,7 +222,7 @@ const HeroSection = () => {
                           className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                         />
                       </div>
-                      <span className="text-base font-bold text-synergyGray-800 group-hover:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
+                      <span className="text-base font-bold text-synergySlate-800 group-hover:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
                     </div>
                   ))}
                 </div>
@@ -238,7 +238,7 @@ const HeroSection = () => {
                           className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
                         />
                       </div>
-                      <span className="text-base font-bold text-synergyGray-800 group-hover:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
+                      <span className="text-base font-bold text-synergySlate-800 group-hover:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
                     </div>
                   ))}
                 </div>

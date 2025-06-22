@@ -62,44 +62,32 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-        // Synergy Bytes Brand Colors
+        // Modern Professional Synergy Bytes Brand Colors
         synergyBlue: {
-          50: '#EBF3FF',
-          100: '#D1E4FF',
-          200: '#A6CAFF',
-          300: '#70A8FF',
-          400: '#3B82F6',
-          500: '#1E40AF',
-          600: '#1E3A8A',
-          700: '#1E3A8A',
-          800: '#1E3A8A',
+          50: '#EFF6FF',
+          100: '#DBEAFE',
+          200: '#BFDBFE',
+          300: '#93C5FD',
+          400: '#60A5FA',
+          500: '#3B82F6',
+          600: '#2563EB',
+          700: '#1D4ED8',
+          800: '#1E40AF',
           900: '#1E3A8A'
         },
-        synergyPurple: {
-          50: '#F3E8FF',
-          100: '#E9D5FF',
-          200: '#D8B4FE',
-          300: '#C084FC',
-          400: '#A855F7',
-          500: '#9333EA',
-          600: '#7C3AED',
-          700: '#6D28D9',
-          800: '#5B21B6',
-          900: '#4C1D95'
+        synergyIndigo: {
+          50: '#EEF2FF',
+          100: '#E0E7FF',
+          200: '#C7D2FE',
+          300: '#A5B4FC',
+          400: '#818CF8',
+          500: '#6366F1',
+          600: '#4F46E5',
+          700: '#4338CA',
+          800: '#3730A3',
+          900: '#312E81'
         },
-        synergyTeal: {
-          50: '#F0FDFA',
-          100: '#CCFBF1',
-          200: '#99F6E4',
-          300: '#5EEAD4',
-          400: '#2DD4BF',
-          500: '#14B8A6',
-          600: '#0D9488',
-          700: '#0F766E',
-          800: '#115E59',
-          900: '#134E4A'
-        },
-        synergyGray: {
+        synergySlate: {
           50: '#F8FAFC',
           100: '#F1F5F9',
           200: '#E2E8F0',
@@ -111,28 +99,56 @@ export default {
           800: '#1E293B',
           900: '#0F172A'
         },
-        // Keep healthcare reference for existing components
-        healthcareBlue: {
-          50: '#EBF3FF',
-          100: '#D1E4FF',
-          500: '#1E40AF',
-          600: '#1E3A8A',
-          700: '#1E3A8A',
-          900: '#1E3A8A'
+        synergyEmerald: {
+          50: '#ECFDF5',
+          100: '#D1FAE5',
+          200: '#A7F3D0',
+          300: '#6EE7B7',
+          400: '#34D399',
+          500: '#10B981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065F46',
+          900: '#064E3B'
         },
-        healthcareTeal: {
-          50: '#F0FDFA',
-          100: '#CCFBF1',
-          500: '#14B8A6',
-          600: '#0D9488',
-          700: '#0F766E'
+        synergyAmber: {
+          50: '#FFFBEB',
+          100: '#FEF3C7',
+          200: '#FDE68A',
+          300: '#FCD34D',
+          400: '#FBBF24',
+          500: '#F59E0B',
+          600: '#D97706',
+          700: '#B45309',
+          800: '#92400E',
+          900: '#78350F'
         },
-        healthcareGreen: {
-          50: '#F0FDF4',
-          500: '#22C55E',
-          600: '#16A34A'
+        // Legacy healthcare colors (kept for backward compatibility)
+        synergyPurple: {
+          50: '#EEF2FF',
+          100: '#E0E7FF',
+          200: '#C7D2FE',
+          300: '#A5B4FC',
+          400: '#818CF8',
+          500: '#6366F1',
+          600: '#4F46E5',
+          700: '#4338CA',
+          800: '#3730A3',
+          900: '#312E81'
         },
-        healthcareGray: {
+        synergyTeal: {
+          50: '#ECFDF5',
+          100: '#D1FAE5',
+          200: '#A7F3D0',
+          300: '#6EE7B7',
+          400: '#34D399',
+          500: '#10B981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065F46',
+          900: '#064E3B'
+        },
+        synergyGray: {
           50: '#F8FAFC',
           100: '#F1F5F9',
           200: '#E2E8F0',
