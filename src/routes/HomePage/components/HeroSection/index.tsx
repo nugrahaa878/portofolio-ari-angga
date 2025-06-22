@@ -190,7 +190,7 @@ const HeroSection = () => {
             </div>
 
             {/* Floating Elements */}
-            <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-3 border border-synergySlate-200 animate-bounce z-10" style={{ animationDuration: '3s' }}>
+            <div className="absolute -top-4 -left-4 bg-white rounded-lg shadow-lg p-3 border border-synergySlate-200 animate-bounce z-10" style={{ animationDuration: '4s' }}>
               <Code2 className="w-6 h-6 text-synergyBlue-600" />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-3 border border-synergySlate-200 animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }}>
