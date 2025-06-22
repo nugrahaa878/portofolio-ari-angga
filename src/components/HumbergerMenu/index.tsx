@@ -36,18 +36,37 @@ const HamburgerMenu = () => {
 
   return (
     <>
-      {/* Hamburger Button */}
-      <button
-        onClick={toggleMenu}
-        className="fixed right-6 top-6 z-50 p-3 bg-white/90 backdrop-blur-md rounded-full shadow-lg border border-synergyGray-200 hover:bg-white transition-all duration-300"
-        aria-label="Toggle menu"
-      >
-        <div className="w-6 h-6 flex flex-col justify-center items-center">
-          <span className={`block w-5 h-0.5 bg-synergyGray-700 transform transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-1' : ''}`} />
-          <span className={`block w-5 h-0.5 bg-synergyGray-700 mt-1 transition-all duration-300 ${isOpen ? 'opacity-0' : ''}`} />
-          <span className={`block w-5 h-0.5 bg-synergyGray-700 mt-1 transform transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-1' : ''}`} />
+      {/* Fixed Mobile Top Navbar */}
+      <div className="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-synergyGray-200 px-4 py-3">
+        <div className="flex items-center justify-between">
+          {/* Logo on Left */}
+          <div className="flex items-center space-x-2">
+            <img
+              src={iconMain}
+              alt="Synergy Bytes Logo"
+              className="w-8 h-8 object-contain"
+            />
+            <img
+              src={iconText}
+              alt="Synergy Bytes"
+              className="h-4 object-contain"
+            />
+          </div>
+
+          {/* Hamburger Button on Right */}
+          <button
+            onClick={toggleMenu}
+            className="p-3 bg-white/90 backdrop-blur-md rounded-full shadow-sm border border-synergyGray-200 hover:bg-white transition-all duration-300"
+            aria-label="Toggle menu"
+          >
+            <div className="w-5 h-5 flex flex-col justify-center items-center">
+              <span className={`block w-4 h-0.5 bg-synergyGray-700 transform transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-1' : ''}`} />
+              <span className={`block w-4 h-0.5 bg-synergyGray-700 mt-0.5 transition-all duration-300 ${isOpen ? 'opacity-0' : ''}`} />
+              <span className={`block w-4 h-0.5 bg-synergyGray-700 mt-0.5 transform transition-all duration-300 ${isOpen ? '-rotate-45 -translate-y-1' : ''}`} />
+            </div>
+          </button>
         </div>
-      </button>
+      </div>
 
       {/* Overlay */}
       {isOpen && (

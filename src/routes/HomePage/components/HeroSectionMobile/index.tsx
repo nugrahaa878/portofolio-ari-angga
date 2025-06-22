@@ -5,7 +5,7 @@ const HeroSectionMobile = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-synergyBlue-50 via-white to-synergyPurple-50 py-4">
       {/* Main Hero Content */}
-      <div className="container mx-auto px-4 pt-16 pb-8">
+      <div className="container mx-auto px-4 pt-20 pb-8">
         <div className="space-y-8">
           {/* Content Section */}
           <div className="text-center space-y-4">
