@@ -27,7 +27,7 @@ const CaseStudiesSection = () => {
               <div className="h-48 bg-gradient-to-br from-healthcareBlue-100 to-healthcareTeal-100 flex items-center justify-center">
                 <img
                   src={project.imgUrl}
-                  alt={project.title}
+                  alt={`${project.title} - Healthcare software solution by Synergy Bytes`}
                   className="w-32 h-32 object-contain opacity-80 group-hover:scale-110 transition-transform duration-300"
                 />
               </div>

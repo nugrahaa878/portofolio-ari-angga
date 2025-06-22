@@ -122,7 +122,7 @@ export const LIST_PROJECTS: Project[] = [
 ];
 
 export const TEAM_INFO = {
-  companyName: "HealthTech Solutions",
+  companyName: "Synergy Bytes",
   tagline: "Transforming Healthcare Through Technology",
   description: "We specialize in developing cutting-edge healthcare software solutions that improve patient outcomes, streamline clinical workflows, and ensure regulatory compliance.",
   founded: "2024",
@@ -146,8 +146,8 @@ export const TESTIMONIALS = [
 
 export const LIST_WORK: Work[] = [
   {
-    company: "HealthTech Solutions",
-    icon: "https://via.placeholder.com/60x60/1565C0/FFFFFF?text=HT",
+    company: "Synergy Bytes",
+    icon: "https://via.placeholder.com/60x60/1565C0/FFFFFF?text=SB",
     position: "Co-Founder & CTO",
     workDuration: "2024 - Present",
     description: "Leading the technical vision for healthcare software solutions, specializing in EHR systems, telemedicine platforms, and healthcare analytics with a focus on HIPAA compliance and interoperability standards."

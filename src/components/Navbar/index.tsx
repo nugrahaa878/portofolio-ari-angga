@@ -1,5 +1,7 @@
-import { Activity, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import iconMain from "../../assets/icon-main.png";
+import iconText from "../../assets/icon-main-text.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,13 +18,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-healthcareBlue-600 to-healthcareTeal-600 rounded-lg flex items-center justify-center">
-              <Activity className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <div className="text-xl font-bold text-healthcareGray-900">HealthTech</div>
-              <div className="text-xs text-healthcareGray-600">Solutions</div>
-            </div>
+            <img
+              src={iconMain}
+              alt="Synergy Bytes Logo"
+              className="w-10 h-10 object-contain"
+            />
+            <img
+              src={iconText}
+              alt="Synergy Bytes"
+              className="h-8 object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}

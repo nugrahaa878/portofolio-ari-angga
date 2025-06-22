@@ -1,5 +1,7 @@
 import { Mail, Phone, MapPin, Star, ArrowRight } from "lucide-react";
 import { TEAM_INFO, TESTIMONIALS } from "../../constants";
+import iconMain from "../../../../assets/icon-main.png";
+import iconText from "../../../../assets/icon-main-text.png";
 
 const TeamTestimonialsFooter = () => {
 	return (
@@ -99,7 +101,10 @@ const TeamTestimonialsFooter = () => {
 					<div className="grid md:grid-cols-4 gap-8 mb-12">
 						{/* Company Info */}
 						<div className="md:col-span-2">
-							<h3 className="text-2xl font-bold mb-4">{TEAM_INFO.companyName}</h3>
+							<div className="flex items-center space-x-3 mb-4">
+								<img src={iconMain} alt="Synergy Bytes Logo" className="w-8 h-8" />
+								<img src={iconText} alt="Synergy Bytes" className="h-6" />
+							</div>
 							<p className="text-healthcareGray-300 mb-6 leading-relaxed">
 								{TEAM_INFO.description}
 							</p>
@@ -133,15 +138,15 @@ const TeamTestimonialsFooter = () => {
 							<div className="space-y-3 text-healthcareGray-300">
 								<div className="flex items-center">
 									<Mail className="w-5 h-5 mr-3 text-healthcareTeal-400" />
-									<span className="text-sm">hello@healthtechsolutions.com</span>
+									<span className="text-sm">hello@synergybytes.com</span>
 								</div>
 								<div className="flex items-center">
 									<Phone className="w-5 h-5 mr-3 text-healthcareTeal-400" />
-									<span className="text-sm">+1 (555) 123-4567</span>
+									<span className="text-sm">+62 812-3456-7890</span>
 								</div>
 								<div className="flex items-center">
 									<MapPin className="w-5 h-5 mr-3 text-healthcareTeal-400" />
-									<span className="text-sm">Remote & On-site</span>
+									<span className="text-sm">Jakarta, Indonesia</span>
 								</div>
 							</div>
 						</div>

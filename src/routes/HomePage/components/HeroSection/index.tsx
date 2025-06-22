@@ -1,16 +1,17 @@
 import { ArrowRight, Shield, Activity, Users } from "lucide-react";
 import { TEAM_INFO } from "../../constants";
+import iconMain from "../../../../assets/icon-main.png";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-healthcareBlue-50 to-white">
+    <div className="min-h-screen bg-gradient-to-br from-synergyBlue-50 to-white">
       {/* Main Hero Content */}
       <div className="container mx-auto px-6 pt-20 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Content */}
           <div className="space-y-8">
             {/* Company Badge */}
-            <div className="inline-flex items-center px-4 py-2 bg-healthcareTeal-50 border border-healthcareTeal-200 rounded-full text-healthcareTeal-700 text-sm font-medium">
+            <div className="inline-flex items-center px-4 py-2 bg-synergyTeal-50 border border-synergyTeal-200 rounded-full text-synergyTeal-700 text-sm font-medium">
               <Shield className="w-4 h-4 mr-2" />
               HIPAA Compliant Healthcare Solutions
             </div>
@@ -18,11 +19,11 @@ const HeroSection = () => {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-healthcareGray-900 leading-tight">
-                {TEAM_INFO.tagline}
+                Synergy Bytes - {TEAM_INFO.tagline}
               </h1>
-              <p className="text-xl text-healthcareGray-600 leading-relaxed max-w-lg">
+              <h2 className="text-xl text-healthcareGray-600 leading-relaxed max-w-lg">
                 {TEAM_INFO.description}
-              </p>
+              </h2>
             </div>
 
             {/* Stats */}
@@ -49,11 +50,11 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-healthcareBlue-600 hover:bg-healthcareBlue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center group">
+              <button className="bg-synergyBlue-600 hover:bg-synergyBlue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center group">
                 Get Started
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" />
               </button>
-              <button className="border-2 border-healthcareGray-300 hover:border-healthcareTeal-500 text-healthcareGray-700 hover:text-healthcareTeal-600 px-8 py-4 rounded-lg font-semibold transition-colors duration-200">
+              <button className="border-2 border-synergyGray-300 hover:border-synergyTeal-500 text-synergyGray-700 hover:text-synergyTeal-600 px-8 py-4 rounded-lg font-semibold transition-colors duration-200">
                 View Our Work
               </button>
             </div>
@@ -67,7 +68,10 @@ const HeroSection = () => {
                 {/* Mock Healthcare Dashboard */}
                 <div className="space-y-6">
                   <div className="flex items-center justify-between">
-                    <h3 className="text-lg font-semibold text-healthcareGray-900">Patient Dashboard</h3>
+                    <div className="flex items-center space-x-2">
+                      <img src={iconMain} alt="Synergy Bytes" className="w-6 h-6" />
+                      <h3 className="text-lg font-semibold text-healthcareGray-900">Patient Dashboard</h3>
+                    </div>
                     <div className="w-3 h-3 bg-healthcareGreen-500 rounded-full"></div>
                   </div>
 
