@@ -1,7 +1,25 @@
 import { ArrowRight, Shield, Activity, Users, Code2, Heart, Zap, CheckCircle } from "lucide-react";
 import iconMain from "../../../../assets/icon-main.png";
 
+// Import client logos
+import client1 from "../../../../assets/clients/synergy-client-1.webp";
+import client2 from "../../../../assets/clients/synergy-client-2.png";
+import client3 from "../../../../assets/clients/synergy-client-3.png";
+import client4 from "../../../../assets/clients/synergy-client-4.svg";
+
 const HeroSectionMobile = () => {
+  // Client data with actual logos
+  const clients = [
+    { logo: client1, name: "RS Cipto", type: "hospital" },
+    { logo: client2, name: "RS Sardjito", type: "hospital" },
+    { logo: client3, name: "FK UI", type: "university" },
+    { logo: client4, name: "FK UGM", type: "university" },
+    { logo: client1, name: "RS Fatmawati", type: "hospital" },
+    { logo: client2, name: "RS Persahabatan", type: "hospital" },
+    { logo: client3, name: "FK Unpad", type: "university" },
+    { logo: client4, name: "RS Hasan Sadikin", type: "hospital" },
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-synergyBlue-50 via-white to-synergyPurple-50 py-4">
       {/* Main Hero Content */}
@@ -178,18 +196,48 @@ const HeroSectionMobile = () => {
       </div>
 
       {/* Bottom Trust Bar - Mobile */}
-      <div className="border-t border-synergyGray-200 bg-white/70 backdrop-blur-sm">
-        <div className="container mx-auto px-4 py-4">
-          <div className="text-center space-y-2">
-            <p className="text-xs text-synergyGray-600 font-medium uppercase tracking-wider">
-              Dipercaya oleh 25+ Institusi Kesehatan
+      <div className="border-t border-synergyGray-200 bg-white/70 backdrop-blur-sm overflow-hidden">
+        <div className="container mx-auto px-4 py-12">
+          <div className="text-center space-y-8">
+            <p className="text-base text-synergyGray-600 font-bold uppercase tracking-wider">
+              Dipercaya oleh 25+ Institusi Kesehatan Terkemuka di Indonesia
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-3 opacity-70">
-              {['RS Umum', 'Klinik', 'Puskesmas', 'Medical Center'].map((name) => (
-                <div key={name} className="text-synergyGray-500 font-semibold text-xs hover:text-synergyBlue-600 transition-colors duration-200">
-                  {name}
+
+            {/* Auto-scrolling logos container - Mobile */}
+            <div className="relative">
+              <div className="flex animate-scroll-infinite space-x-12 items-center">
+                {/* First set of logos */}
+                <div className="flex items-center space-x-12 whitespace-nowrap">
+                  {clients.map((client, index) => (
+                    <div key={index} className="flex flex-col items-center space-y-3 min-w-[120px] group active:scale-95 transition-transform duration-200">
+                      <div className="w-24 h-24 bg-white rounded-2xl shadow-xl flex items-center justify-center p-1 group-active:shadow-2xl transition-all duration-300">
+                        <img
+                          src={client.logo}
+                          alt={client.name}
+                          className="w-full h-full object-contain group-active:scale-110 transition-transform duration-300"
+                        />
+                      </div>
+                      <span className="text-base font-bold text-synergyGray-800 text-center leading-tight group-active:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
+                    </div>
+                  ))}
                 </div>
-              ))}
+
+                {/* Duplicate set for seamless infinite scroll */}
+                <div className="flex items-center space-x-12 whitespace-nowrap">
+                  {clients.map((client, index) => (
+                    <div key={`duplicate-${index}`} className="flex flex-col items-center space-y-3 min-w-[120px] group active:scale-95 transition-transform duration-200">
+                      <div className="w-24 h-24 bg-white rounded-2xl shadow-xl flex items-center justify-center p-1 group-active:shadow-2xl transition-all duration-300">
+                        <img
+                          src={client.logo}
+                          alt={client.name}
+                          className="w-full h-full object-contain group-active:scale-110 transition-transform duration-300"
+                        />
+                      </div>
+                      <span className="text-base font-bold text-synergyGray-800 text-center leading-tight group-active:text-synergyBlue-600 transition-colors duration-300">{client.name}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>

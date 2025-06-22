@@ -12,6 +12,15 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+      animation: {
+        'scroll-infinite': 'scroll-infinite 30s linear infinite',
+      },
+      keyframes: {
+        'scroll-infinite': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
