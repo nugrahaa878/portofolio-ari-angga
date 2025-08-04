@@ -59,7 +59,7 @@ export const LIST_PROJECTS: Project[] = [
     details:
       "Logbook App for the Faculty of Medicine, Universitas Indonesia. For faster development, I've integrated some features as Web Views. For the Flutter side, I'm utilizing Cubit for state management and implementing separation of concerns for improved readability and maintainability. On the web side, we are using React with Typescript, implementing React Context for state management, and utilizing the Chakra-UI component library.",
     imgUrl: "https://i.ibb.co.com/FqzhrWhN/logbook-logo.png",
-    techStack: ["Flutter", "React", "Typescript", "Cubit"],
+    techStack: ["Flutter", "React", "NestJs", "Cubit"],
     title: "Logbook Anestesi UI",
     playStore: "play.google.com/store/apps/details?id=com.mobile.logbook_app",
     webLink: "https://anestesi-ui.id/",
