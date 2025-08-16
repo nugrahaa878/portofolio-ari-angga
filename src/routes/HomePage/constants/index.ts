@@ -1,6 +1,7 @@
 import { Post, Project, Work } from "../types";
 import tokopedia from "../../../assets/tokopedia.png";
 import pashouses from "../../../assets/pashouses.jpeg";
+import maktourIcon from "../../../assets/maktour-logo.webp";
 import { logbookImages } from "../../../assets/projects/logbook";
 import { phrImages } from "../../../assets/projects/phr";
 import { worldCancerDayImages } from "../../../assets/projects/world-cancer-day";
@@ -55,6 +56,14 @@ export const LIST_POST: Post[] = [
 ];
 
 export const LIST_PROJECTS: Project[] = [
+  {
+    details:
+      "Maktour is a trusted Hajj and Umrah travel agency with 33+ years of experience, providing professional services and complete facilities for a smooth and meaningful journey.",
+    imgUrl: maktourIcon,
+    techStack: ["Flutter", "React", "Node.js"],
+    title: "Maktour",
+    webLink: "https://maktour.id/"
+  },
   {
     details:
       "Logbook App for the Faculty of Medicine, Universitas Indonesia. For faster development, I've integrated some features as Web Views. For the Flutter side, I'm utilizing Cubit for state management and implementing separation of concerns for improved readability and maintainability. On the web side, we are using React with Typescript, implementing React Context for state management, and utilizing the Chakra-UI component library.",
