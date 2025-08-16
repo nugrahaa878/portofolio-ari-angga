@@ -58,7 +58,7 @@ export const LIST_POST: Post[] = [
 export const LIST_PROJECTS: Project[] = [
   {
     details:
-      "Maktour is a trusted Hajj and Umrah travel agency with 33+ years of experience, providing professional services and complete facilities for a smooth and meaningful journey.",
+      "Maktour is a trusted Hajj and Umrah travel agency with 33+ years of experience. We developed their landing page and CMS, making it hassle-free to update and manage content.",
     imgUrl: maktourIcon,
     techStack: ["Flutter", "React", "Node.js"],
     title: "Maktour",
